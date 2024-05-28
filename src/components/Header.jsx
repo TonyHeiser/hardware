@@ -46,10 +46,10 @@ export default function Header() {
           <div className="close-btn__dash2"></div>
         </button>
         <div className="mobile-menu__main">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Prices</a></li>
+          <li><a href="#"><IoHome /><span>Home</span></a></li>
+          <li><a href="#"><FaInfoCircle/><span>About</span></a></li>
+          <li><a href="#"><MdContactSupport/><span>Contacts</span></a></li>
+          <li><a href="#"><IoMdPricetags/><span>Prices</span></a></li>
         </div>
         <div className="divider"></div>
         <div className="mobile-menu__links">

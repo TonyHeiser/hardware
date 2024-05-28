@@ -269,6 +269,12 @@ header {
         a {
           color: var(--clrblack);
           font-size: 2rem;
+          display: flex;
+          align-items: center;
+
+          span {
+            margin-left: 5px;
+          }
         }
 
         a:hover {
