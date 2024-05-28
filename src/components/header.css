@@ -48,6 +48,7 @@ header {
       background-size: 50% 50%;
       background-repeat: no-repeat;
       animation: l18 1.8462s infinite;
+      margin-right: 20px;
     }
 
     .header__title {
@@ -79,12 +80,20 @@ header {
     justify-content: space-between;
     max-width: 450px;
     width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
 
     li {
       margin: 5px;
 
       a {
         font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+
+        span {
+          margin-left: 5px;
+        }
       }
 
       a:hover {
@@ -99,6 +108,7 @@ header {
     a {
       margin-right: 10px;
       transition: 0.2s;
+      white-space: nowrap;
     }
 
     .account {

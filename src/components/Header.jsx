@@ -1,4 +1,9 @@
-import { useState } from "react"
+import { useState } from "react";
+import { IoHome } from "react-icons/io5";
+import { FaInfoCircle } from "react-icons/fa";
+import { MdContactSupport } from "react-icons/md";
+import { IoMdPricetags } from "react-icons/io";
+
 import "./header.css"
 
 export default function Header() {
@@ -20,10 +25,10 @@ export default function Header() {
         </div>
       </a>
       <menu className="header__menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contacts</a></li>
-        <li><a href="#">Prices</a></li>
+        <li><a href="#"><IoHome /><span>Home</span></a></li>
+        <li><a href="#"><FaInfoCircle/><span>About</span></a></li>
+        <li><a href="#"><MdContactSupport/><span>Contacts</span></a></li>
+        <li><a href="#"><IoMdPricetags/><span>Prices</span></a></li>
       </menu>
       <div className="header__account">
         <a href="#" className="account">Account</a>
