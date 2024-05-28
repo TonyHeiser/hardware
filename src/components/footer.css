@@ -1,0 +1,19 @@
+:root {
+  --clrblack: #1e272e;
+  --clrblack2: #2f3640;
+  --clrblack3: #353b48;
+  --clrred: #c23616;
+  --clrred2: #e84118;
+  --clrblue: #0097e6;
+  --clrblue2: #00a8ff;
+  --clrgreen: #44bd32;
+  --clrgreen2: #4cd137;
+  --clrwhite: #f5f6fa;
+  --clrpurple: #8e44ad;
+  --clrpurple2: #9b59b6;
+}
+
+footer {
+  background-color: var(--clrred);
+  color: var(--clrblack);
+}
