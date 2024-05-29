@@ -1,8 +1,8 @@
 import  "./App.css"
-import FetchData from "./components/FetchData"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Toggle from "./components/Toggle"
+import Namae from "./components/withUseEffect/WithUseEffect"
 
 
 function App() {
@@ -19,9 +19,8 @@ function App() {
       
       <div className="container">
       <Toggle/>
-      <FetchData/>
+      <Namae/>
       <h1>Hello</h1>
-        <div className="content"><h2>HRSJJHZ4Y6J4UG1T</h2></div>
         <div className="content"><h2>Content</h2></div>
         <div className="content"><h2>Content</h2></div>
       <main className="main">
