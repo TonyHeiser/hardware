@@ -1,0 +1,41 @@
+:root {
+  --clrblack: #1e272e;
+  --clrblack2: #2f3640;
+  --clrblack3: #353b48;
+  --clrred: #c23616;
+  --clrred2: #e84118;
+  --clrblue: #0097e6;
+  --clrblue2: #00a8ff;
+  --clrgreen: #44bd32;
+  --clrgreen2: #4cd137;
+  --clrwhite: #f5f6fa;
+  --clrpurple: #8e44ad;
+  --clrpurple2: #9b59b6;
+}
+
+.namae__btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-family: inherit;
+  background: none;
+  border: 2px solid var(--clrred);
+  border-radius: 5px;
+  color: var(--clrred2);
+  margin-right: 10px;
+  box-shadow: 0 0 5px 0 var(--clrred2);
+  transition: 0.1s;
+}
+
+.namae__btn:hover {
+  background-color: var(--clrred);
+  color: var(--clrwhite);
+  border-color: var(--clrred);
+  box-shadow: 0 0 0 0;
+}
+
+.namae__btn:active {
+  background-color: var(--clrred2);
+  color: var(--clrwhite);
+  border-color: var(--clrred2);
+  transform: scale(0.95);
+}
