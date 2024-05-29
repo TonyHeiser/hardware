@@ -20,7 +20,7 @@ export default function Namae() {
       <button onClick={() => setType("todos")} className="namae__btn">Todos</button>
       <button onClick={() => setType("posts")} className="namae__btn">Posts</button>
 
-      <p>{JSON.stringify(data, null, 2)}</p>
+      <p className="useeffect__lucida-console">{JSON.stringify(data, null, 2)}</p>
     </>
   )
 }
