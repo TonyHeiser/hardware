@@ -20,7 +20,7 @@ export default function Namae() {
       <button onClick={() => setType("todos")} className="namae__btn">Todos</button>
       <button onClick={() => setType("posts")} className="namae__btn">Posts</button>
 
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      <p>{JSON.stringify(data, null, 2)}</p>
     </>
   )
 }
