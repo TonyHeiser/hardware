@@ -1,0 +1,89 @@
+:root {
+  --clrblack: #1e272e;
+  --clrblack2: #2f3640;
+  --clrblack3: #353b48;
+  --clrred: #c23616;
+  --clrred2: #e84118;
+  --clrblue: #0097e6;
+  --clrblue2: #00a8ff;
+  --clrgreen: #44bd32;
+  --clrgreen2: #4cd137;
+  --clrwhite: #f5f6fa;
+  --clrpurple: #8e44ad;
+  --clrpurple2: #9b59b6;
+  --clryellow: #f1c40f;
+}
+
+.periodic-table {
+  margin: 20px;
+  border: 2px solid var(--clrwhite);
+  border-radius: 10px;
+  padding: 5px;
+
+  .periodic-table__table {
+
+    th {
+      
+      button.periodic-table__button {
+        border: 2px solid var(--clrblack3);
+        border-radius: 5px;
+        background: none;
+        color: var(--clrwhite);
+        font-size: 1rem;
+        font-family: inherit;
+        padding: 5px;
+        width: 70px;
+        transition: 0.1s;
+        height: 80px;
+
+        .element-info__up {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 5px;
+
+          .element__char {
+            font-family: "Helvetica-Bold";
+          }
+
+          .element__number {
+
+          }
+        }
+
+        .element-info__center {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 5px;
+
+          .element__atomic-mass, .element__electronegativity {
+            font-size: 0.8rem;
+          }
+
+          .element__electronegativity {
+            
+          }
+
+        }
+
+        span.element__name  {
+          font-size: 0.8rem;
+          text-align: left;
+        }
+
+        span.lanthanide-actinide {
+          font-size: 0.85rem;
+        }
+      }
+
+      button.periodic-table__button:hover {
+        transform: scale(1.05);
+      }
+
+      button.periodic-table__button:active {
+        transform: scale(0.95);
+        background-color: var(--clrwhite);
+        color: var(--clrblack);
+      }
+    }
+  }
+}
