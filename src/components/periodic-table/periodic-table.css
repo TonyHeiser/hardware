@@ -12,6 +12,7 @@
   --clrpurple: #8e44ad;
   --clrpurple2: #9b59b6;
   --clryellow: #f1c40f;
+  --clrorange: #e67e22;
 }
 
 .periodic-table {
@@ -20,21 +21,198 @@
   border-radius: 10px;
   padding: 5px;
 
+  .explanation {
+
+    position: absolute;
+    top: 190px;
+    left: 350px;
+
+    .explanation__element {
+      width: 160px;
+      height: 160px;
+      padding: 5px;
+      background-color: var(--clrblack2);
+      border-radius: 10px;
+      position: absolute;
+      border: 4px solid var(--clrblack3);
+  
+      .element-info__up {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+  
+        .element__char {
+          font-family: "Helvetica-Bold";
+          font-size: 2rem;
+        }
+  
+        .element__number {
+          font-size: 2rem;
+        }
+      }
+  
+      .element-info__center {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+  
+        .element__atomic-mass, .element__electronegativity {
+          font-size: 1.8rem;
+        }
+  
+        .element__electronegativity {
+          
+        }
+  
+      }
+  
+      span.element__name  {
+        font-size: 1.8rem;
+        text-align: left;
+      }
+    }
+
+    .dashes {
+      position: absolute;
+      top: 50px;
+      left: -150px;
+  
+      .dashez {
+        width: 50px;
+        height: 2px;
+        background-color: var(--clrwhite);
+        position: relative;
+      }
+  
+      .dash__name {
+        position: absolute;
+        top: -80px;
+        left: 75px;
+        
+        .dash__char {
+  
+        }
+  
+        .dash1 {
+          
+          top: 10px;
+          left: 20px;
+          transform: rotate(20deg);
+        }
+      }
+  
+      .dash__number {
+        position: absolute;
+        top: -80px;
+        left: 330px;
+  
+        .dash2 {
+          top: 10px;
+          left: -16px;
+          transform: rotate(-20deg);
+        }
+      }
+
+      .dash__atomic-mass {
+        position: absolute;
+        top: 0;
+        left: 40px;
+
+
+        .dash__atomic-mass-info {
+          font-size: 0.8rem;
+        }
+
+        .dash3 {
+          top: -10px;
+          left: 95px;
+          width: 20px;
+          transform: rotate(20deg);
+        }
+      }
+
+      .dash__electronegativity {
+        position: absolute;
+        left: 320px;
+
+
+        .dash__electronegativity-info {
+          font-size: 0.8rem;
+        }
+
+        .dash4 {
+          transform: rotate(-20deg);
+          left: -20px;
+          width: 30px;
+          top: 5px;
+        }
+      }
+
+      .dash__element-name {
+        position: absolute;
+        top: 110px;
+        left: 50px;
+
+        .dash5 {
+          transform: rotate(-30deg);
+          top: -40px;
+          width: 30px;
+          left: 80px;
+        }
+      }
+    }
+  }
+
+  
+
   .periodic-table__table {
 
     th {
+
+      #nonmetal {
+        background-color: var(--clrblue);
+        color: var(--clrblack);
+        transition: 0.1s;
+      }
+
+      #nonmetal:hover {
+        background-color: var(--clrblue2);
+      }
+
+      #alkaliMetal {
+        background-color: var(--clrred);
+        transition: 0.1s;
+      }
+
+      #alkaliMetal:hover {
+        background-color: var(--clrred2);
+      }
+
+      #alkalineEarthMetal {
+        background-color: var(--clrorange);
+        color: var(--clrblack);
+      }
+
+      #metalloid {
+        background-color: var(--clrgreen);
+        color: var(--clrblack);
+      }
+
+      #metalloid:hover {
+        background-color: var(--clrgreen2);
+      }
       
       button.periodic-table__button {
         border: 2px solid var(--clrblack3);
         border-radius: 5px;
         background: none;
         color: var(--clrwhite);
-        font-size: 1rem;
+        font-size: 1.1vw;
         font-family: inherit;
         padding: 5px;
-        width: 70px;
+        width: 5vw;
         transition: 0.1s;
-        height: 80px;
+        height: 12vh;
 
         .element-info__up {
           display: flex;
@@ -56,7 +234,7 @@
           margin-bottom: 5px;
 
           .element__atomic-mass, .element__electronegativity {
-            font-size: 0.8rem;
+            font-size: 0.95vw;
           }
 
           .element__electronegativity {
@@ -66,12 +244,12 @@
         }
 
         span.element__name  {
-          font-size: 0.8rem;
+          font-size: 0.9vw;
           text-align: left;
         }
 
         span.lanthanide-actinide {
-          font-size: 0.85rem;
+          font-size: 0.95vw;
         }
       }
 
@@ -84,6 +262,12 @@
         background-color: var(--clrwhite);
         color: var(--clrblack);
       }
+
+      
+
+      
     }
   }
+
+  
 }

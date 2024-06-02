@@ -10,6 +10,16 @@ export const elements = {
     group: "nonmetal",
   },
 
+  helium: {
+    char: "He",
+    number: 2,
+    atomicMass: 4.0,
+    electronegativity: null,
+    nameRus: "Гелий",
+    nameEng: "Helium",
+    group: "nonmetal",
+  },
+
   lithium: {
     char: "Li",
     number: 3,
@@ -28,6 +38,36 @@ export const elements = {
     nameRus: "Берилий",
     nameEng: "Beryllium",
     group: "alkalineEarthMetal"
+  },
+
+  boron: {
+    char: "B",
+    number: 5,
+    atomicMass: 10.8,
+    electronegativity: 2.04,
+    nameRus: "Бор",
+    nameEng: "Boron",
+    group: "metalloid",
+  },
+
+  carbon: {
+    char: "C",
+    number: 6,
+    atomicMass: 12.0,
+    electronegativity: 2.55,
+    nameRus: "Углерод",
+    nameEng: "Carbon",
+    group: "nonmetal"
+  },
+
+  nitrogen: {
+    char: "N",
+    number: 7,
+    atomicMass: 14.0,
+    electronegativity: 3.04,
+    nameRus: "Азот",
+    nameEng: "Nitrogen",
+    group: "nonmetal",
   },
 
   sodium: {
@@ -155,6 +195,60 @@ export const elements = {
     electronegativity: 1.65,
     nameRus: "Цинк",
     nameEng: "Zinc",
+  },
+
+  gallium: {
+    char: "Ga",
+    number: 31,
+    atomicMass: 69.7,
+    electronegativity: 1.81,
+    nameRus: "Галлий",
+    nameEng: "Gallium",
+  },
+
+  germanium: {
+    char: "Ge",
+    number: 32,
+    atomicMass: 72.6,
+    electronegativity: 2.01,
+    nameRus: "Германий",
+    nameEng: "Germanium",
+  },
+
+  arsenic: {
+    char: "As",
+    number: 33,
+    atomicMass: 74.9,
+    electronegativity: 2.18,
+    nameRus: "Мышьяк",
+    nameEng: "Arsenic",
+  },
+
+  selenium: {
+    char: "Se",
+    number: 34,
+    atomicMass: 79.0,
+    electronegativity: 2.55,
+    nameRus: "Селен",
+    nameEng: "Selenium",
+  },
+
+  bromine: {
+    char: "Br",
+    number: 35,
+    atomicMass: 79.9,
+    electronegativity: 2.96,
+    nameRus: "Бром",
+    nameEng: "Bromine",
+  },
+
+  krypton: {
+    char: "Kr",
+    number: 36,
+    atomicMass: 83.8,
+    electronegativity: 3.00,
+    nameRus: "Криптон",
+    nameEng: "Krypton",
   },
 
   rubidium: {

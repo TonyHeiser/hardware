@@ -4,6 +4,41 @@ import { elements } from "./periodic-table-data"
 export default function PeriodicTable() {
   return (
     <div className="periodic-table">
+      <div className="explanation">
+        <div className="explanation__element">
+          <div className="element-info__up">
+            <span className="element__char span-text">{elements.hydrogen.char}</span>
+            <span className="element__number span-text">{elements.hydrogen.number}</span>
+          </div>
+          <div className="element-info__center">
+            <span className="element__atomic-mass span-text">{elements.hydrogen.atomicMass}</span>
+            <span className="element__electronegativity span-text">{elements.hydrogen.electronegativity}</span>
+          </div>
+          <span className="element__name span-text">{elements.hydrogen.nameRus}</span>
+        </div>
+        <div className="dashes">
+          <div className="dash__name">
+            <span className="dash__char-info">Символ элемента</span>
+            <div className="dash1 dashez"></div>
+          </div>
+          <div className="dash__number">
+            <span className="dash__number-info">Номер элемента</span>
+            <div className="dash2 dashez"></div>
+          </div>
+          <div className="dash__atomic-mass">
+            <span className="dash__atomic-mass-info">Относительная атомная масса</span>
+            <div className="dash3 dashez"></div>
+          </div>
+          <div className="dash__electronegativity">
+            <span className="dash__electronegativity-info">Электроотрицательность</span>
+            <div className="dash4 dashez"></div>
+          </div>
+          <div className="dash__element-name">
+            <span className="dash__element-name-info">Название элемента</span>
+            <div className="dash5 dashez"></div>
+          </div>
+        </div>
+      </div>
       <table className="periodic-table__table">
         <tr>Group
           <th>1</th>
@@ -31,7 +66,7 @@ export default function PeriodicTable() {
         <tr>1
           
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.hydrogen.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.hydrogen.char}</span>
                 <span className="element__number span-text">{elements.hydrogen.number}</span>
@@ -43,10 +78,25 @@ export default function PeriodicTable() {
               <span className="element__name span-text">{elements.hydrogen.nameRus}</span>
             </button>
           </th>
+          <th colSpan={16}></th>
+          <th>
+            <button className="periodic-table__button" id={elements.helium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.helium.char}</span>
+                <span className="element__number span-text">{elements.helium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.helium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.helium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.helium.nameRus}</span>
+            </button>
+          </th>
+          
         </tr>
         <tr>2
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.lithium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.lithium.char}</span>
                 <span className="element__number span-text">{elements.lithium.number}</span>
@@ -59,7 +109,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.beryllium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.beryllium.char}</span>
                 <span className="element__number span-text">{elements.beryllium.number}</span>
@@ -71,7 +121,46 @@ export default function PeriodicTable() {
               <span className="element__name span-text">{elements.beryllium.nameRus}</span>
             </button>
           </th>
-          
+          <th colSpan={10}></th>
+          <th>
+            <button className="periodic-table__button" id={elements.boron.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.boron.char}</span>
+                <span className="element__number span-text">{elements.boron.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.boron.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.boron.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.boron.nameRus}</span>
+            </button>
+          </th>          
+          <th>
+            <button className="periodic-table__button" id={elements.carbon.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.carbon.char}</span>
+                <span className="element__number span-text">{elements.carbon.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.carbon.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.carbon.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.carbon.nameRus}</span>
+            </button>
+          </th>          
+          <th>
+            <button className="periodic-table__button" id={elements.nitrogen.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.nitrogen.char}</span>
+                <span className="element__number span-text">{elements.nitrogen.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.nitrogen.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.nitrogen.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.nitrogen.nameRus}</span>
+            </button>
+          </th>          
         </tr>
         <tr>3
           <th>
@@ -256,6 +345,84 @@ export default function PeriodicTable() {
                 <span className="element__electronegativity span-text">{elements.zinc.electronegativity}</span>
               </div>
               <span className="element__name span-text">{elements.zinc.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button">
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.gallium.char}</span>
+                <span className="element__number span-text">{elements.gallium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.gallium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.gallium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.gallium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button">
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.germanium.char}</span>
+                <span className="element__number span-text">{elements.germanium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.germanium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.germanium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.germanium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button">
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.arsenic.char}</span>
+                <span className="element__number span-text">{elements.arsenic.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.arsenic.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.arsenic.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.arsenic.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button">
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.selenium.char}</span>
+                <span className="element__number span-text">{elements.selenium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.selenium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.selenium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.selenium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button">
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.bromine.char}</span>
+                <span className="element__number span-text">{elements.bromine.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.bromine.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.bromine.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.bromine.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button">
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.krypton.char}</span>
+                <span className="element__number span-text">{elements.krypton.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.krypton.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.krypton.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.krypton.nameRus}</span>
             </button>
           </th>
         </tr>
