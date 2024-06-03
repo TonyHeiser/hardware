@@ -161,10 +161,50 @@ export default function PeriodicTable() {
               <span className="element__name span-text">{elements.nitrogen.nameRus}</span>
             </button>
           </th>          
+          <th>
+            <button className="periodic-table__button" id={elements.oxygen.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.oxygen.char}</span>
+                <span className="element__number span-text">{elements.oxygen.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.oxygen.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.oxygen.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.oxygen.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.fluorine.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.fluorine.char}</span>
+                <span className="element__number span-text">{elements.fluorine.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.fluorine.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.fluorine.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.fluorine.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.neon.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.neon.char}</span>
+                <span className="element__number span-text">{elements.neon.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.neon.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.neon.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.neon.nameRus}</span>
+            </button>
+          </th>
+          
         </tr>
         <tr>3
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.sodium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.sodium.char}</span>
                 <span className="element__number span-text">{elements.sodium.number}</span>
@@ -177,7 +217,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.magnesium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.magnesium.char}</span>
                 <span className="element__number span-text">{elements.magnesium.number}</span>
@@ -189,10 +229,89 @@ export default function PeriodicTable() {
               <span className="element__name span-text">{elements.magnesium.nameRus}</span>
             </button>
           </th>
+          <th colSpan={10}></th>
+          <th>
+            <button className="periodic-table__button" id={elements.aluminum.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.aluminum.char}</span>
+                <span className="element__number span-text">{elements.aluminum.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.aluminum.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.aluminum.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.aluminum.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.silicon.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.silicon.char}</span>
+                <span className="element__number span-text">{elements.silicon.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.silicon.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.silicon.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.silicon.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.phosphorus.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.phosphorus.char}</span>
+                <span className="element__number span-text">{elements.phosphorus.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.phosphorus.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.phosphorus.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.phosphorus.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.sulfur.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.sulfur.char}</span>
+                <span className="element__number span-text">{elements.sulfur.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.sulfur.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.sulfur.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.sulfur.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.chlorine.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.chlorine.char}</span>
+                <span className="element__number span-text">{elements.chlorine.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.chlorine.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.chlorine.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.chlorine.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.argon.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.argon.char}</span>
+                <span className="element__number span-text">{elements.argon.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.argon.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.argon.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.argon.nameRus}</span>
+            </button>
+          </th>
         </tr>
         <tr>4
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.potassium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.potassium.char}</span>
                 <span className="element__number span-text">{elements.potassium.number}</span>
@@ -205,7 +324,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.calcium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.calcium.char}</span>
                 <span className="element__number span-text">{elements.calcium.number}</span>
@@ -218,7 +337,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.scandium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.scandium.char}</span>
                 <span className="element__number span-text">{elements.scandium.number}</span>
@@ -231,7 +350,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.titanium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.titanium.char}</span>
                 <span className="element__number span-text">{elements.titanium.number}</span>
@@ -244,7 +363,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.vanadium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.vanadium.char}</span>
                 <span className="element__number span-text">{elements.vanadium.number}</span>
@@ -257,7 +376,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.chromium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.chromium.char}</span>
                 <span className="element__number span-text">{elements.chromium.number}</span>
@@ -270,7 +389,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.manganese.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.manganese.char}</span>
                 <span className="element__number span-text">{elements.manganese.number}</span>
@@ -283,7 +402,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.iron.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.iron.char}</span>
                 <span className="element__number span-text">{elements.iron.number}</span>
@@ -296,7 +415,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.cobalt.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.cobalt.char}</span>
                 <span className="element__number span-text">{elements.cobalt.number}</span>
@@ -309,7 +428,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.nickel.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.nickel.char}</span>
                 <span className="element__number span-text">{elements.nickel.number}</span>
@@ -322,7 +441,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.copper.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.copper.char}</span>
                 <span className="element__number span-text">{elements.copper.number}</span>
@@ -335,7 +454,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.zinc.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.zinc.char}</span>
                 <span className="element__number span-text">{elements.zinc.number}</span>
@@ -348,7 +467,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.gallium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.gallium.char}</span>
                 <span className="element__number span-text">{elements.gallium.number}</span>
@@ -361,7 +480,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.germanium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.germanium.char}</span>
                 <span className="element__number span-text">{elements.germanium.number}</span>
@@ -374,7 +493,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.arsenic.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.arsenic.char}</span>
                 <span className="element__number span-text">{elements.arsenic.number}</span>
@@ -387,7 +506,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.selenium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.selenium.char}</span>
                 <span className="element__number span-text">{elements.selenium.number}</span>
@@ -400,7 +519,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.bromine.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.bromine.char}</span>
                 <span className="element__number span-text">{elements.bromine.number}</span>
@@ -413,7 +532,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.krypton.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.krypton.char}</span>
                 <span className="element__number span-text">{elements.krypton.number}</span>
@@ -428,7 +547,7 @@ export default function PeriodicTable() {
         </tr>
         <tr>5
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.rubidium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.rubidium.char}</span>
                 <span className="element__number span-text">{elements.rubidium.number}</span>
@@ -441,7 +560,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.strontium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.strontium.char}</span>
                 <span className="element__number span-text">{elements.strontium.number}</span>
@@ -454,7 +573,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.yttrium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.yttrium.char}</span>
                 <span className="element__number span-text">{elements.yttrium.number}</span>
@@ -467,7 +586,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.zirconium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.zirconium.char}</span>
                 <span className="element__number span-text">{elements.zirconium.number}</span>
@@ -480,7 +599,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.niobium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.niobium.char}</span>
                 <span className="element__number span-text">{elements.niobium.number}</span>
@@ -492,10 +611,180 @@ export default function PeriodicTable() {
               <span className="element__name span-text">{elements.niobium.nameRus}</span>
             </button>
           </th>
+          <th>
+            <button className="periodic-table__button" id={elements.molybdenum.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.molybdenum.char}</span>
+                <span className="element__number span-text">{elements.molybdenum.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.molybdenum.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.molybdenum.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.molybdenum.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.technetium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.technetium.char}</span>
+                <span className="element__number span-text">{elements.technetium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.technetium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.technetium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.technetium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.ruthenium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.ruthenium.char}</span>
+                <span className="element__number span-text">{elements.ruthenium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.ruthenium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.ruthenium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.ruthenium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.rhodium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.rhodium.char}</span>
+                <span className="element__number span-text">{elements.rhodium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.rhodium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.rhodium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.rhodium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.palladium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.palladium.char}</span>
+                <span className="element__number span-text">{elements.palladium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.palladium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.palladium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.palladium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.silver.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.silver.char}</span>
+                <span className="element__number span-text">{elements.silver.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.silver.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.silver.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.silver.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.cadmium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.cadmium.char}</span>
+                <span className="element__number span-text">{elements.cadmium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.cadmium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.cadmium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.cadmium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.indium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.indium.char}</span>
+                <span className="element__number span-text">{elements.indium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.indium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.indium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.indium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.tin.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.tin.char}</span>
+                <span className="element__number span-text">{elements.tin.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.tin.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.tin.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.tin.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.antimony.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.antimony.char}</span>
+                <span className="element__number span-text">{elements.antimony.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.antimony.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.antimony.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.antimony.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.tellurium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.tellurium.char}</span>
+                <span className="element__number span-text">{elements.tellurium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.tellurium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.tellurium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.tellurium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.iodine.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.iodine.char}</span>
+                <span className="element__number span-text">{elements.iodine.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.iodine.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.iodine.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.iodine.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.xenon.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.xenon.char}</span>
+                <span className="element__number span-text">{elements.xenon.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.xenon.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.xenon.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.xenon.nameRus}</span>
+            </button>
+          </th>
+          
         </tr>
         <tr>6
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.caesium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.caesium.char}</span>
                 <span className="element__number span-text">{elements.caesium.number}</span>
@@ -508,7 +797,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.barium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.barium.char}</span>
                 <span className="element__number span-text">{elements.barium.number}</span>
@@ -559,7 +848,7 @@ export default function PeriodicTable() {
           <th></th>
           <th colSpan={2}>Лантаноиды<br />(Lanthanide)</th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.lantanium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.lantanium.char}</span>
                 <span className="element__number span-text">{elements.lantanium.number}</span>
@@ -572,7 +861,7 @@ export default function PeriodicTable() {
             </button>
           </th>
           <th>
-            <button className="periodic-table__button">
+            <button className="periodic-table__button" id={elements.cerium.group}>
               <div className="element-info__up">
                 <span className="element__char span-text">{elements.cerium.char}</span>
                 <span className="element__number span-text">{elements.cerium.number}</span>
@@ -582,6 +871,136 @@ export default function PeriodicTable() {
                 <span className="element__electronegativity span-text">{elements.cerium.electronegativity}</span>
               </div>
               <span className="element__name span-text">{elements.cerium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.praseodymium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.praseodymium.char}</span>
+                <span className="element__number span-text">{elements.praseodymium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.praseodymium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.praseodymium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.praseodymium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.neodymium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.neodymium.char}</span>
+                <span className="element__number span-text">{elements.neodymium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.neodymium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.neodymium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.neodymium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.promethium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.promethium.char}</span>
+                <span className="element__number span-text">{elements.promethium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.promethium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.promethium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.promethium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.samarium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.samarium.char}</span>
+                <span className="element__number span-text">{elements.samarium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.samarium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.samarium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.samarium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.europium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.europium.char}</span>
+                <span className="element__number span-text">{elements.europium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.europium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.europium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.europium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.gadolinium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.gadolinium.char}</span>
+                <span className="element__number span-text">{elements.gadolinium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.gadolinium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.gadolinium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.gadolinium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.terbium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.terbium.char}</span>
+                <span className="element__number span-text">{elements.terbium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.terbium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.terbium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.terbium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.dysprosium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.dysprosium.char}</span>
+                <span className="element__number span-text">{elements.dysprosium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.dysprosium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.dysprosium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.dysprosium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.holmium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.holmium.char}</span>
+                <span className="element__number span-text">{elements.holmium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.holmium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.holmium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.holmium.nameRus}</span>
+            </button>
+          </th>
+          <th>
+            <button className="periodic-table__button" id={elements.erbium.group}>
+              <div className="element-info__up">
+                <span className="element__char span-text">{elements.erbium.char}</span>
+                <span className="element__number span-text">{elements.erbium.number}</span>
+              </div>
+              <div className="element-info__center">
+                <span className="element__atomic-mass span-text">{elements.erbium.atomicMass}</span>
+                <span className="element__electronegativity span-text">{elements.erbium.electronegativity}</span>
+              </div>
+              <span className="element__name span-text">{elements.erbium.nameRus}</span>
             </button>
           </th>
         </tr>

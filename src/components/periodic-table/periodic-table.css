@@ -4,14 +4,19 @@
   --clrblack3: #353b48;
   --clrred: #c23616;
   --clrred2: #e84118;
+  --clrred3: #eb3b5a;
+  --clrred4: #fc5c65;
   --clrblue: #0097e6;
   --clrblue2: #00a8ff;
   --clrgreen: #44bd32;
   --clrgreen2: #4cd137;
+  --clrgreen3: #27ae60;
+  --clrgreen4: #2ecc71;
   --clrwhite: #f5f6fa;
   --clrpurple: #8e44ad;
   --clrpurple2: #9b59b6;
   --clryellow: #f1c40f;
+  --clryellow2: #fff200;
   --clrorange: #e67e22;
 }
 
@@ -25,7 +30,7 @@
 
     position: absolute;
     top: 190px;
-    left: 350px;
+    left: 35vw;
 
     .explanation__element {
       width: 160px;
@@ -194,12 +199,60 @@
       }
 
       #metalloid {
-        background-color: var(--clrgreen);
+        background-color: var(--clrgreen3);
         color: var(--clrblack);
       }
 
       #metalloid:hover {
+        background-color: var(--clrgreen4);
+      }
+
+      #halogen {
+        background: linear-gradient(-45deg, var(--clrblue2) 0%, var(--clrblack2) 75%);
+        transition: 0.1s;
+      }
+
+      #halogen:hover {
+        background: linear-gradient(45deg, var(--clrblack2) 0%, var(--clrblue2) 75%);
+      }
+
+      #nobleGas {
+        background-color: var(--clrpurple);
+        color: var(--clryellow);
+        transition: 0.1s;
+      }
+
+      #nobleGas:hover {
+        background-color: var(--clrpurple2);
+        color: var(--clrwhite);
+      }
+
+      #basicMetal {
+        background-color: var(--clrgreen);
+        color: var(--clrblack);
+      }
+
+      #basicMetal:hover {
         background-color: var(--clrgreen2);
+      }
+
+      #transitionMetal {
+        background-color: var(--clryellow);
+        color: var(--clrblack);
+        transition: 0.1s;
+      }
+
+      #transitionMetal:hover {
+        background-color: var(--clryellow2);
+      }
+
+      #lanthanide {
+        background-color: var(--clrred3);
+        color: var(--clrblack);
+      }
+
+      #lanthanide:hover {
+        background-color: var(--clrred4);
       }
       
       button.periodic-table__button {
@@ -212,7 +265,7 @@
         padding: 5px;
         width: 5vw;
         transition: 0.1s;
-        height: 12vh;
+        height: 10.8vh;
 
         .element-info__up {
           display: flex;
@@ -234,7 +287,7 @@
           margin-bottom: 5px;
 
           .element__atomic-mass, .element__electronegativity {
-            font-size: 0.95vw;
+            font-size: 0.85vw;
           }
 
           .element__electronegativity {
