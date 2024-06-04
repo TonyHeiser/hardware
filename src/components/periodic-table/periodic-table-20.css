@@ -1,0 +1,72 @@
+:root {
+  --clrblack: #1e272e;
+  --clrblack2: #2f3640;
+  --clrblack3: #353b48;
+  --clrred: #c23616;
+  --clrred2: #e84118;
+  --clrred3: #eb3b5a;
+  --clrred4: #fc5c65;
+  --clrblue: #0097e6;
+  --clrblue2: #00a8ff;
+  --clrgreen: #44bd32;
+  --clrgreen2: #4cd137;
+  --clrgreen3: #27ae60;
+  --clrgreen4: #2ecc71;
+  --clrwhite: #f5f6fa;
+  --clrpurple: #8e44ad;
+  --clrpurple2: #9b59b6;
+  --clryellow: #f1c40f;
+  --clryellow2: #fff200;
+  --clrorange: #e67e22;
+}
+
+.periodic-table-20 {
+  border: 2px solid var(--clrwhite);
+  margin: 20px;
+  padding: 5px;
+  border-radius: 10px;
+
+  .periodic-table-20__first-row {
+    display: flex;
+    justify-content: space-between;
+
+    .periodic-table-20__titles {
+      margin-right: 1dvw;
+  
+      .periodic-table-20__title {
+        display: flex;
+        align-items: center;
+  
+        h4 {
+          font-size: 1dvw;
+        }
+      }
+  
+      .right {
+        
+        h4 {
+          margin-right: 5px;
+        }
+      }
+  
+      .down {
+        h4 {
+          margin-left: 5px;
+        }
+      }
+    }
+  
+    .periodic-table-20__groups {
+      display: grid;
+      grid-template-columns: repeat(18, 1fr);
+      width: 100%;
+  
+      .periodic-table-20__group {
+        border: 2px dashed var(--clrwhite);
+        width: 5dvw;
+        text-align: center;
+        padding-top: 6px;
+      }
+    }
+  }
+}

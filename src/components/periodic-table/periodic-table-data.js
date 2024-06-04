@@ -1183,8 +1183,6 @@ export const elements = {
     group: "nobleGas",
   },
 
-
-
 }
 
 console.log(Object.keys(elements).length);
