@@ -1,5 +1,7 @@
 import "./periodic-table-20.css"
 import { FaArrowAltCircleRight, FaArrowAltCircleDown } from "react-icons/fa";
+import ChemicalElement from "./PeriodicTableElement.jsx";
+import { elements } from "./periodic-table-data.js";
 
 export default function PeriodicTable20() {
   return (
@@ -40,21 +42,27 @@ export default function PeriodicTable20() {
         </div>
         <div className="periodic-table-20__second-row">
           <span className="periodic-table-20__period">1</span>
+          <div className="second-row__elements">
+            
+          </div>
         </div>
         <div className="periodic-table-20__third-row">
           <span className="periodic-table-20__period">2</span>
         </div>
         <div className="periodic-table-20__fourth-row">
-          <span className="periodic-table-20__period">1</span>
+          <span className="periodic-table-20__period">3</span>
         </div>
         <div className="periodic-table-20__fifth-row">
-          <span className="periodic-table-20__period">2</span>
+          <span className="periodic-table-20__period">4</span>
         </div>
         <div className="periodic-table-20__sixth-row">
-          <span className="periodic-table-20__period">2</span>
+          <span className="periodic-table-20__period">5</span>
         </div>
         <div className="periodic-table-20__seventh-row">
-          <span className="periodic-table-20__period">2</span>
+          <span className="periodic-table-20__period">6</span>
+        </div>
+        <div className="periodic-table-20__eighth-row">
+          <span className="periodic-table-20__period">7</span>
         </div>
 
       </div>
