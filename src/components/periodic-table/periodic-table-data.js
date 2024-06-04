@@ -683,7 +683,185 @@ export const elements = {
     group: "lanthanide",
   },
 
+  thulium: {
+    char: "Tm",
+    number: 69,
+    atomicMass: 168.9,
+    electronegativity: 1.25,
+    nameRus: "Тулий",
+    nameEng: "Thulium",
+    group: "lanthanide",
+  },
 
+  ytterbium: {
+    char: "Yb",
+    number: 70,
+    atomicMass: 173,
+    electronegativity: 1.10,
+    nameRus: "Иттебрий",
+    nameEng: "Ytterbium",
+    group: "lanthanide",
+  },
+
+  lutetium: {
+    char: "Lu",
+    number: 71,
+    atomicMass: 174.9,
+    electronegativity: 1.27,
+    nameRus: "Лютеций",
+    nameEng: "Lutetium",
+    group: "lanthanide",
+  },
+
+  hafnium: {
+    char: "Hf",
+    number: 72,
+    atomicMass: 178.5,
+    electronegativity: 1.3,
+    nameRus: "Гафний",
+    nameEng: "Hafnium",
+    group: "transitionMetal",
+  },
+
+  tantalum: {
+    char: "Ta",
+    number: 73,
+    atomicMass: 180.9,
+    electronegativity: 1.5,
+    nameRus: "Тантал",
+    nameEng: "Tantalum",
+    group: "transitionMetal",
+  },
+
+  tungsten: {
+    char: "W",
+    number: 74,
+    atomicMass: 183.8,
+    electronegativity: 2.36,
+    nameRus: "Вольфрам",
+    nameEng: "Tungsten",
+    group: "transitionMetal",
+  },
+
+  rhenium: {
+    char: "Re",
+    number: 75,
+    atomicMass: 186.2,
+    electronegativity: 1.9,
+    nameRus: "Рений",
+    nameEng: "Rhenium",
+    group: "transitionMetal",
+  },
+
+  osmium: {
+    char: "Os",
+    number: 76,
+    atomicMass: 190.2,
+    electronegativity: 2.2,
+    nameRus: "Осмий",
+    nameEng: "Osmium",
+    group: "transitionMetal",
+  },
+
+  iridium: {
+    char: "Ir",
+    number: 77,
+    atomicMass: 192.2,
+    electronegativity: 2.2,
+    nameRus: "Иридий",
+    nameEng: "Iridium",
+    group: "transitionMetal",
+  },
+
+  platinum: {
+    char: "Pt",
+    number: 78,
+    atomicMass: 195,
+    electronegativity: 2.28,
+    nameRus: "Платина",
+    nameEng: "Platinum",
+    group: "transitionMetal",
+  },
+
+  gold: {
+    char: "Au",
+    number: 79,
+    atomicMass: 197,
+    electronegativity: 2.54,
+    nameRus: "Золото",
+    nameEng: "Gold",
+    group: "transitionMetal",
+  },
+
+  mercury: {
+    char: "Hg",
+    number: 80,
+    atomicMass: 200.6,
+    electronegativity: 2,
+    nameRus: "Ртуть",
+    nameEng: "Mercury",
+    group: "transitionMetal",
+  },
+
+  thallium: {
+    char: "Ta",
+    number: 81,
+    atomicMass: 204.4,
+    electronegativity: 1.62,
+    nameRus: "Таллий",
+    nameEng: "Thallium",
+    group: "basicMetal",
+  },
+
+  lead: {
+    char: "Pb",
+    number: 82,
+    atomicMass: 207,
+    electronegativity: 2.33,
+    nameRus: "Свинец",
+    nameEng: "Lead",
+    group: "basicMetal",
+  },
+
+  bismuth: {
+    char: "Bi",
+    number: 83,
+    atomicMass: 209,
+    electronegativity: 2.02,
+    nameRus: "Висмут",
+    nameEng: "Bismuth",
+    group: "basicMetal",
+  },
+
+  polonium: {
+    char: "Po",
+    number: 84,
+    atomicMass: 209,
+    electronegativity: 2,
+    nameRus: "Полоний",
+    nameEng: "Polonium",
+    group: "metalloid",
+  },
+
+  astatine: {
+    char: "At",
+    number: 85,
+    atomicMass: 210,
+    electronegativity: 2.2,
+    nameRus: "Астат",
+    nameEng: "Astatine",
+    group: "halogen",
+  },
+
+  radon: {
+    char: "Rn",
+    number: 86,
+    atomicMass: 222,
+    electronegativity: 2.20,
+    nameRus: "Радон",
+    nameEng: "Radon",
+    group: "nobleGas",
+  },
 
   francium: {
     char: "Fr",
@@ -702,6 +880,7 @@ export const elements = {
     electronegativity: 0.90,
     nameRus: "Радий",
     nameEng: "Radium",
+    group: "alkalineEarthMetal",
   },
 
   actinium: {
@@ -711,6 +890,7 @@ export const elements = {
     electronegativity: 1.10,
     nameRus: "Актиний",
     nameEng: "Actinium",
+    group: "actinide",
   },
 
   thorium: {
@@ -720,7 +900,291 @@ export const elements = {
     electronegativity: 1.30,
     nameRus: "Торий",
     nameEng: "Thorium",
-  }
+    group: "actinide",
+  },
+
+  protactinium: {
+    char: "Pa",
+    number: 91,
+    atomicMass: 231,
+    electronegativity: 1.5,
+    nameRus: "Протактиний",
+    nameEng: "Protactinium",
+    group: "actinide",
+  },
+
+  uranium: {
+    char: "U",
+    number: 92,
+    atomicMass: 238,
+    electronegativity: 1.38,
+    nameRus: "Уран",
+    nameEng: "Uranium",
+    group: "actinide",
+  },
+
+  neptunium: {
+    char: "Np",
+    number: 93,
+    atomicMass: 237,
+    electronegativity: 1.36,
+    nameRus: "Нептуний",
+    nameEng: "Neptunium",
+    group: "actinide",
+  },
+
+  plutonium: {
+    char: "Pu",
+    number: 94,
+    atomicMass: 244,
+    electronegativity: 1.28,
+    nameRus: "Плутоний",
+    nameEng: "Plutonium",
+    group: "actinide",
+  },
+
+  americium: {
+    char: "Am",
+    number: 95,
+    atomicMass: 243,
+    electronegativity: 1.3,
+    nameRus: "Америций",
+    nameEng: "Americium",
+    group: "actinide",
+  },
+
+  curium: {
+    char: "Cm",
+    number: 96,
+    atomicMass: 247,
+    electronegativity: 1.3,
+    nameRus: "Кюрий",
+    nameEng: "Curium",
+    group: "actinide",
+  },
+
+  berkelium: {
+    char: "Bk",
+    number: 97,
+    atomicMass: 247,
+    electronegativity: 1.3,
+    nameRus: "Берклий",
+    nameEng: "Berkelium",
+    group: "actinide",
+  },
+
+  californium: {
+    char: "Cf",
+    number: 98,
+    atomicMass: 251,
+    electronegativity: 1.3,
+    nameRus: "Калифорний",
+    nameEng: "Californium",
+    group: "actinide",
+  },
+
+  einsteinium: {
+    char: "Es",
+    number: 99,
+    atomicMass: 252,
+    electronegativity: 1.3,
+    nameRus: "Эйнштейний",
+    nameEng: "Einsteinium",
+    group: "actinide",
+  },
+
+  fermium: {
+    char: "Fm",
+    number: 100,
+    atomicMass: 257.1,
+    electronegativity: 1.3,
+    nameRus: "Фермий",
+    nameEng: "Fermium",
+    group: "actinide",
+  },
+
+  mendelevium: {
+    char: "Md",
+    number: 101,
+    atomicMass: 258.1,
+    electronegativity: 1.3,
+    nameRus: "Менделеевий",
+    nameEng: "Mendelevium",
+    group: "actinide",
+  },
+
+  nobelium: {
+    char: "No",
+    number: 102,
+    atomicMass: 259.1,
+    electronegativity: 1.3,
+    nameRus: "Нобелий",
+    nameEng: "Nobelium",
+    group: "actinide",
+  },
+
+  lawrencium: {
+    char: "Lr",
+    number: 103,
+    atomicMass: 266.1,
+    electronegativity: 1.3,
+    nameRus: "Лавренций",
+    nameEng: "Lawrencium",
+    group: "actinide",
+  },
+
+  rutherfordium: {
+    char: "Rf",
+    number: 104,
+    atomicMass: 267.1,
+    electronegativity: null,
+    nameRus: "Резерфордий",
+    nameEng: "Rutherfordium",
+    group: "transitionMetal",
+  },
+
+  dubnium: {
+    char: "Db",
+    number: 105,
+    atomicMass: 268.1,
+    electronegativity: null,
+    nameRus: "Дубний",
+    nameEng: "Dubnium",
+    group: "transitionMetal",
+  },
+
+  seaborgium: {
+    char: "Sg",
+    number: 106,
+    atomicMass: 269.1,
+    electronegativity: null,
+    nameRus: "Сиборгий",
+    nameEng: "Seaborgium",
+    group: "transitionMetal",
+  },
+
+  bohrium: {
+    char: "Bh",
+    number: 107,
+    atomicMass: 270.1,
+    electronegativity: null,
+    nameRus: "Борий",
+    nameEng: "Bohrium",
+    group: "transitionMetal",
+  },
+
+  hassium: {
+    char: "Hs",
+    number: 108,
+    atomicMass: 269.1,
+    electronegativity: null,
+    nameRus: "Хассий",
+    nameEng: "Hassium",
+    group: "transitionMetal",
+  },
+
+  meitnerium: {
+    char: "Mt",
+    number: 109,
+    atomicMass: 277.1,
+    electronegativity: null,
+    nameRus: "Мейтнерий",
+    nameEng: "Meitnerium",
+    group: "transitionMetal",
+  },
+
+  darmstadtium: {
+    char: "Ds",
+    number: 110,
+    atomicMass: 282.2,
+    electronegativity: null,
+    nameRus: "Дармштадтий",
+    nameEng: "Darmstadtium",
+    group: "transitionMetal",
+  },
+
+  roentgenium: {
+    char: "Rg",
+    number: 111,
+    atomicMass: 282.2,
+    electronegativity: null,
+    nameRus: "Рентгений",
+    nameEng: "Roentgenium",
+    group: "transitionMetal",
+  },
+
+  copernicium: {
+    char: "Cn",
+    number: 112,
+    atomicMass: 286.2,
+    electronegativity: null,
+    nameRus: "Коперниций",
+    nameEng: "Copernicium",
+    group: "transitionMetal",
+  },
+
+  nihonium: {
+    char: "Nh",
+    number: 113,
+    atomicMass: 286.2,
+    electronegativity: null,
+    nameRus: "",
+    nameEng: "Nihonium",
+    group: "basicMetal",
+  },
+
+  flerovium: {
+    char: "Fl",
+    number: 114,
+    atomicMass: 290.2,
+    electronegativity: null,
+    nameRus: "",
+    nameEng: "Flerovium",
+    group: "basicMetal",
+  },
+
+  moscovium: {
+    char: "Mc",
+    number: 115,
+    atomicMass: 290.2,
+    electronegativity: null,
+    nameRus: "",
+    nameEng: "Moscovium",
+    group: "basicMetal",
+  },
+
+  livermorium: {
+    char: "Lv",
+    number: 116,
+    atomicMass: 293.2,
+    electronegativity: null,
+    nameRus: "",
+    nameEng: "Livermorium",
+    group: "basicMetal",
+  },
+
+  tennessine: {
+    char: "Ts",
+    number: 117,
+    atomicMass: 294.2,
+    electronegativity: null,
+    nameRus: "",
+    nameEng: "Tennessine",
+    group: "halogen",
+  },
+
+  oganesson: {
+    char: "Og",
+    number: 118,
+    atomicMass: 295.2,
+    electronegativity: null,
+    nameRus: "",
+    nameEng: "Oganesson",
+    group: "nobleGas",
+  },
+
+
+
 }
 
 console.log(Object.keys(elements).length);

@@ -254,6 +254,10 @@
       #lanthanide:hover {
         background-color: var(--clrred4);
       }
+
+      #actinide {
+        background: linear-gradient(-45deg, var(--clrred3) 0%, var(--clrblack2) 75%);
+      }
       
       button.periodic-table__button {
         border: 2px solid var(--clrblack3);
@@ -265,7 +269,7 @@
         padding: 5px;
         width: 5vw;
         transition: 0.1s;
-        height: 10.8vh;
+        height: 5vw;
 
         .element-info__up {
           display: flex;
@@ -302,7 +306,7 @@
         }
 
         span.lanthanide-actinide {
-          font-size: 0.95vw;
+          font-size: 0.9vw;
         }
       }
 
@@ -317,6 +321,18 @@
       }
 
       
+
+      
+    }
+
+    th.th__protactinium-span-fs {
+
+      button.periodic-table__button {
+
+        span.element__name {
+          font-size: 0.7vw;
+        }
+      }
 
       
     }
