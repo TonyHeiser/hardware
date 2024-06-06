@@ -1,0 +1,67 @@
+:root {
+  --clrblack: #1e272e;
+  --clrblack2: #2f3640;
+  --clrblack3: #353b48;
+  --clrred: #c23616;
+  --clrred2: #e84118;
+  --clrred3: #eb3b5a;
+  --clrred4: #fc5c65;
+  --clrblue: #0097e6;
+  --clrblue2: #00a8ff;
+  --clrgreen: #44bd32;
+  --clrgreen2: #4cd137;
+  --clrgreen3: #27ae60;
+  --clrgreen4: #2ecc71;
+  --clrwhite: #f5f6fa;
+  --clrpurple: #8e44ad;
+  --clrpurple2: #9b59b6;
+  --clryellow: #f1c40f;
+  --clryellow2: #fff200;
+  --clrorange: #e67e22;
+}
+
+button.periodic-table-20__btn {
+  border: 2px solid var(--clrblack3);
+  border-radius: 5px;
+  background: none;
+  color: var(--clrwhite);
+  font-size: 1.1vw;
+  font-family: inherit;
+  padding: 0.2dvw;
+  width: 4.5dvw;
+  transition: 0.1s;
+  height: 5vw;
+
+  .element20-info__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .element20-info__center {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+    .element__atomic-mass, .element__electronegativity {
+      font-size: 0.85vw;
+    }
+  }
+
+  span.element20__name {
+    font-size: 0.9vw;
+    text-align: left;
+  }
+
+  
+}
+
+button.periodic-table20__btn:hover {
+  transform: scale(1.05);
+}
+
+button.periodic-table20__btn:active {
+  transform: scale(0.95);
+  background-color: var(--clrwhite);
+  color: var(--clrblack);
+}

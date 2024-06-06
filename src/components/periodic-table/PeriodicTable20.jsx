@@ -43,7 +43,8 @@ export default function PeriodicTable20() {
         <div className="periodic-table-20__second-row">
           <span className="periodic-table-20__period">1</span>
           <div className="second-row__elements">
-            
+            <ChemicalElement element={elements.hydrogen}/>
+            <ChemicalElement element={elements.helium}/>
           </div>
         </div>
         <div className="periodic-table-20__third-row">

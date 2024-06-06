@@ -26,6 +26,91 @@
   padding: 5px;
   border-radius: 10px;
 
+  button.nonmetal {
+    background-color: var(--clrblue);
+    color: var(--clrblack);
+    transition: 0.1s;
+  }
+
+  button.nonmetal:hover {
+    background-color: var(--clrblue2);
+  }
+
+  button.alkaliMetal {
+    background-color: var(--clrred);
+    transition: 0.1s;
+  }
+
+  button.alkaliMetal:hover {
+    background-color: var(--clrred2);
+  }
+
+  button.alkalineEarthMetal {
+    background-color: var(--clrorange);
+    color: var(--clrblack);
+  }
+
+  button.metalloid {
+    background-color: var(--clrgreen3);
+    color: var(--clrblack);
+  }
+
+  button.metalloid:hover {
+    background-color: var(--clrgreen4);
+  }
+
+  button.halogen {
+    background: linear-gradient(-45deg, var(--clrblue2) 0%, var(--clrblack2) 75%);
+    transition: 0.1s;
+  }
+
+  button.halogen:hover {
+    background: linear-gradient(45deg, var(--clrblack2) 0%, var(--clrblue2) 75%);
+  }
+
+  button.nobleGas {
+    background-color: var(--clrpurple);
+    color: var(--clryellow);
+    transition: 0.1s;
+  }
+
+  button.nobleGas:hover {
+    background-color: var(--clrpurple2);
+    color: var(--clrwhite);
+  }
+
+  button.basicMetal {
+    background-color: var(--clrgreen);
+    color: var(--clrblack);
+  }
+
+  button.basicMetal:hover {
+    background-color: var(--clrgreen2);
+  }
+
+  button.transitionMetal {
+    background-color: var(--clryellow);
+    color: var(--clrblack);
+    transition: 0.1s;
+  }
+
+  button.transitionMetal:hover {
+    background-color: var(--clryellow2);
+  }
+
+  button.lanthanide {
+    background-color: var(--clrred3);
+    color: var(--clrblack);
+  }
+
+  button.lanthanide:hover {
+    background-color: var(--clrred4);
+  }
+
+  button.actinide {
+    background: linear-gradient(-45deg, var(--clrred3) 0%, var(--clrblack2) 75%);
+  }
+
   .periodic-table-20__first-row {
     display: flex;
     justify-content: space-between;
@@ -90,3 +175,4 @@ span.periodic-table-20__period {
   text-align: center;
   padding-top: 1.3dvw;
 }
+
