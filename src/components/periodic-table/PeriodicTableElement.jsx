@@ -1,9 +1,8 @@
+/* eslint-disable react/prop-types */
 import "./element.css";
-// import { elements } from "./periodic-table-data";
+
 
 export default function ChemicalElement({element}) {
-
-  const {group, char, number, atomicMass, electronegativity, nameEng} = element
 
   return (
     <button className={`periodic-table-20__btn ${element.group}`}>
@@ -19,3 +18,4 @@ export default function ChemicalElement({element}) {
     </button>
   )
 }
+

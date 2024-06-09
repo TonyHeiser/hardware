@@ -26,6 +26,27 @@
   padding: 5px;
   border-radius: 10px;
 
+  div.periodic-table-20__container {
+    display: grid;
+    grid-template-columns: repeat(19, 1fr);
+    gap: 5px;
+
+    div.periodic-table-20__element {
+      background-color: var(--clrblack2);
+      width: 4.5dvw;
+      height: 4dvw;
+      border-radius: 5px;
+      border: 2px solid var(--clrblack3);
+    }
+
+    .periodic-table-20__none-element {
+      width: 4dvw;
+      height: 4dvw;
+    }
+  }
+
+  
+
   button.nonmetal {
     background-color: var(--clrblue);
     color: var(--clrblack);
