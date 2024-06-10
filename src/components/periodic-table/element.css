@@ -28,28 +28,29 @@ button.periodic-table-20__btn {
   font-size: 1.1vw;
   font-family: inherit;
   padding: 0.2dvw;
-  width: 4.5dvw;
+  width: 4.95dvw;
   transition: 0.1s;
   height: 5vw;
 
   .element20-info__up {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 0.4dvw;
   }
 
   .element20-info__center {
     display: flex;
     justify-content: space-between;
     margin-bottom: 5px;
+    font-size: 0.85dvw;
 
-    .element__atomic-mass, .element__electronegativity {
-      font-size: 0.85vw;
+    span.element__atomic-mass, span.element__electronegativity {
+      
     }
   }
 
   span.element20__name {
-    font-size: 0.9vw;
+    font-size: 0.9dvw;
     text-align: left;
   }
 

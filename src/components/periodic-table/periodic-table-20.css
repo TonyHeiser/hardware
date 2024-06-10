@@ -23,10 +23,64 @@
 .periodic-table-20 {
   border: 2px solid var(--clrwhite);
   margin: 20px;
-  padding: 5px;
+  padding: 0px;
   border-radius: 10px;
 
-  div.periodic-table-20__container {
+  table.periodic-table-20__table {
+
+    div.periodic-table-20__first-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      div.periodic-table-20__group-period {
+        margin-right: 0.5dvw;
+        border: 2px solid var(--clrblack3);
+        border-radius: 5px;
+        padding: 2px;
+
+        th.periodic-table-20__group-title, th.periodic-table-20__period-title {
+          display: flex;
+          align-items: center;
+          font-size: 1dvw;
+        }
+  
+        th.periodic-table-20__group-title h4 {
+          margin-right: 0.4dvw;
+        }
+  
+        th.periodic-table-20__period-title h4 {
+          margin-left: 0.3dvw;
+        }
+      }
+
+      tr.periodic-table-20__group-nums {
+
+        th {
+          border: 2px dashed var(--clrwhite);
+          width: 5dvw;
+          height: 2dvw;
+          font-size: 1dvw;
+          padding-top: 0.2dvw;
+        }
+      }
+    }
+
+    
+  }
+
+  .periodic-table-20__periods {
+
+    tr {
+
+      th.periodic-table-20__periods-title {
+        width: 5.5dvw;
+        border: 2px dotted var(--clrwhite);
+      }
+    }
+  }
+
+  /* div.periodic-table-20__container {
     display: grid;
     grid-template-columns: repeat(19, 1fr);
     gap: 5px;
@@ -43,7 +97,7 @@
       width: 4dvw;
       height: 4dvw;
     }
-  }
+  } */
 
   
 
@@ -132,7 +186,7 @@
     background: linear-gradient(-45deg, var(--clrred3) 0%, var(--clrblack2) 75%);
   }
 
-  .periodic-table-20__first-row {
+  /* .periodic-table-20__first-row {
     display: flex;
     justify-content: space-between;
 
@@ -185,15 +239,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  
+   */
 }
 
-span.periodic-table-20__period {
+/* span.periodic-table-20__period {
   border: 2px dashed var(--clryellow);
   width: 5dvw;
   height: 4dvw;
   display: block;
   text-align: center;
   padding-top: 1.3dvw;
-}
-
+} */

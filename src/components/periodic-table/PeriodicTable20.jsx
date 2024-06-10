@@ -1,146 +1,146 @@
 import "./periodic-table-20.css"
-// import { FaArrowAltCircleRight, FaArrowAltCircleDown } from "react-icons/fa";
-// import ChemicalElement from "./PeriodicTableElement.jsx";
-// import { elements } from "./periodic-table-data.js";
+import { FaArrowAltCircleRight, FaArrowAltCircleDown } from "react-icons/fa";
+import ChemicalElement from "./PeriodicTableElement.jsx";
+import { elements } from "./periodic-table-data.js";
+import { BiSolidDiamond } from "react-icons/bi";
 
 export default function PeriodicTable20() {
   return (
     <>
       <div className="periodic-table-20">
-        <div className="periodic-table-20__container">
-          <div className="periodic-table-20__element">1</div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__none-element"></div>
-          <div className="periodic-table-20__element">2</div>
-          <div className="periodic-table-20__element">3</div>
-          <div className="periodic-table-20__element">4</div>
-          <div className="periodic-table-20__element">5</div>
-          <div className="periodic-table-20__element">6</div>
-          <div className="periodic-table-20__element">7</div>
-          <div className="periodic-table-20__element">8</div>
-          <div className="periodic-table-20__element">9</div>
-          <div className="periodic-table-20__element">10</div>
-          <div className="periodic-table-20__element">11</div>
-          <div className="periodic-table-20__element">12</div>
-          <div className="periodic-table-20__element">13</div>
-          <div className="periodic-table-20__element">14</div>
-          <div className="periodic-table-20__element">15</div>
-          <div className="periodic-table-20__element">16</div>
-          <div className="periodic-table-20__element">17</div>
-          <div className="periodic-table-20__element">18</div>
-          <div className="periodic-table-20__element">19</div>
-          <div className="periodic-table-20__element">20</div>
-          <div className="periodic-table-20__element">21</div>
-          <div className="periodic-table-20__element">22</div>
-          <div className="periodic-table-20__element">23</div>
-          <div className="periodic-table-20__element">24</div>
-          <div className="periodic-table-20__element">25</div>
-          <div className="periodic-table-20__element">26</div>
-          <div className="periodic-table-20__element">27</div>
-          <div className="periodic-table-20__element">28</div>
-          <div className="periodic-table-20__element">29</div>
-          <div className="periodic-table-20__element">30</div>
-          <div className="periodic-table-20__element">31</div>
-          <div className="periodic-table-20__element">32</div>
-          <div className="periodic-table-20__element">33</div>
-          <div className="periodic-table-20__element">34</div>
-          <div className="periodic-table-20__element">35</div>
-          <div className="periodic-table-20__element">36</div>
-          <div className="periodic-table-20__element">37</div>
-          <div className="periodic-table-20__element">38</div>
-          <div className="periodic-table-20__element">39</div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-          <div className="periodic-table-20__element"></div>
-        </div>
+        <table className="periodic-table-20__table">
+          <div className="periodic-table-20__first-row">
+            <div className="periodic-table-20__group-period">
+              <tr className="periodic-table-20__group">
+                <th className="periodic-table-20__group-title">
+                  <h4>Group</h4>
+                  <FaArrowAltCircleRight/>
+                </th>
+              </tr>
+              <tr className="periodic-table-20__period">
+                <th className="periodic-table-20__period-title">
+                  <FaArrowAltCircleDown/>
+                  <h4>Period</h4>
+                </th>
+              </tr>
+            </div>
+            <tr className="periodic-table-20__group-nums">
+              <th>1</th>
+              <th>2</th>
+              <th>3</th>
+              <th>4</th>
+              <th>5</th>
+              <th>6</th>
+              <th>7</th>
+              <th>8</th>
+              <th>9</th>
+              <th>10</th>
+              <th>11</th>
+              <th>12</th>
+              <th>13</th>
+              <th>14</th>
+              <th>15</th>
+              <th>16</th>
+              <th>17</th>
+              <th>18</th>
+            </tr>
+          </div>
+          <div className="periodic-table-20__periods">
+            <tr className="periodic-table-20__first-row">
+              <th className="periodic-table-20__periods-title">1</th>
+              <ChemicalElement element={elements.hydrogen}/>
+              <td colSpan={16}></td>
+              <ChemicalElement element={elements.helium}/>
+            </tr>
+            <tr className="periodic-table-20__second-row">
+              <th className="periodic-table-20__periods-title">2</th>
+              <ChemicalElement element={elements.lithium}/>
+              <ChemicalElement element={elements.beryllium}/>
+              <td colSpan={10}></td>
+              <ChemicalElement element={elements.boron}/>
+              <ChemicalElement element={elements.carbon}/>
+              <ChemicalElement element={elements.nitrogen}/>
+              <ChemicalElement element={elements.oxygen}/>
+              <ChemicalElement element={elements.fluorine}/>
+              <ChemicalElement element={elements.neon}/>
+            </tr>
+            <tr className="periodic-table-20__third-row"> 
+              <th className="periodic-table-20__periods-title">3</th>
+              <ChemicalElement element={elements.sodium}/>
+              <ChemicalElement element={elements.magnesium}/>
+              <td colSpan={10}></td>
+              <ChemicalElement element={elements.aluminum}/>
+              <ChemicalElement element={elements.silicon}/>
+              <ChemicalElement element={elements.phosphorus}/>
+              <ChemicalElement element={elements.sulfur}/>
+              <ChemicalElement element={elements.chlorine}/>
+              <ChemicalElement element={elements.argon}/>
+            </tr>
+            <tr className="periodic-table-20__fourth-row">
+              <th className="periodic-table-20__periods-title">4</th>
+              <ChemicalElement element={elements.potassium}/>
+              <ChemicalElement element={elements.calcium}/>
+              <ChemicalElement element={elements.scandium}/>
+              <ChemicalElement element={elements.titanium}/>
+              <ChemicalElement element={elements.vanadium}/>
+              <ChemicalElement element={elements.chromium}/>
+              <ChemicalElement element={elements.manganese}/>
+              <ChemicalElement element={elements.iron}/>
+              <ChemicalElement element={elements.cobalt}/>
+              <ChemicalElement element={elements.nickel}/>
+              <ChemicalElement element={elements.copper}/>
+              <ChemicalElement element={elements.zinc}/>
+              <ChemicalElement element={elements.gallium}/>
+              <ChemicalElement element={elements.germanium}/>
+              <ChemicalElement element={elements.arsenic}/>
+              <ChemicalElement element={elements.selenium}/>
+              <ChemicalElement element={elements.bromine}/>
+              <ChemicalElement element={elements.krypton}/>
+            </tr>
+            <tr className="periodic-table-20__fifth-row">
+              <th className="periodic-table-20__periods-title">5</th>
+              <ChemicalElement element={elements.rubidium}/>
+              <ChemicalElement element={elements.strontium}/>
+              <ChemicalElement element={elements.yttrium}/>
+              <ChemicalElement element={elements.zirconium}/>
+              <ChemicalElement element={elements.niobium}/>
+              <ChemicalElement element={elements.molybdenum}/>
+              <ChemicalElement element={elements.technetium}/>
+              <ChemicalElement element={elements.ruthenium}/>
+              <ChemicalElement element={elements.rhodium}/>
+              <ChemicalElement element={elements.palladium}/>
+              <ChemicalElement element={elements.silver}/>
+              <ChemicalElement element={elements.cadmium}/>
+              <ChemicalElement element={elements.indium}/>
+              <ChemicalElement element={elements.tin}/>
+              <ChemicalElement element={elements.antimony}/>
+              <ChemicalElement element={elements.tellurium}/>
+              <ChemicalElement element={elements.iodine}/>
+              <ChemicalElement element={elements.xenon}/>
+            </tr>
+            <tr className="periodic-table-20__sixth-row">
+              <th className="periodic-table-20__periods-title">6</th>
+              <ChemicalElement element={elements.caesium}/>
+              <ChemicalElement element={elements.barium}/>
+              <td colSpan={1}></td>
+              <ChemicalElement element={elements.hafnium}/>
+              <ChemicalElement element={elements.tantalum}/>
+              <ChemicalElement element={elements.tungsten}/>
+              <ChemicalElement element={elements.rhenium}/>
+              <ChemicalElement element={elements.osmium}/>
+              <ChemicalElement element={elements.iridium}/>
+              <ChemicalElement element={elements.platinum}/>
+              <ChemicalElement element={elements.gold}/>
+              <ChemicalElement element={elements.mercury}/>
+              <ChemicalElement element={elements.thallium}/>
+              <ChemicalElement element={elements.lead}/>
+              <ChemicalElement element={elements.bismuth}/>
+              <ChemicalElement element={elements.polonium}/>
+              <ChemicalElement element={elements.astatine}/>
+              <ChemicalElement element={elements.radon}/>
+            </tr>
+          </div>
+        </table>
         {/* <div className="periodic-table-20__first-row">
           <div className="periodic-table-20__titles">
             <div className="periodic-table-20__title right">
