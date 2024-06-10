@@ -8,137 +8,108 @@ export default function PeriodicTable20() {
     <>
       <div className="periodic-table-20">
         <table className="periodic-table-20__table">
-          <div className="periodic-table-20__first-row">
-            <div className="periodic-table-20__group-period">
-              <tr className="periodic-table-20__group">
-                <th className="periodic-table-20__group-title">
-                  <h4>Group</h4>
-                  <FaArrowAltCircleRight/>
-                </th>
-              </tr>
-              <tr className="periodic-table-20__period">
-                <th className="periodic-table-20__period-title">
-                  <FaArrowAltCircleDown/>
-                  <h4>Period</h4>
-                </th>
-              </tr>
-            </div>
-            <tr className="periodic-table-20__group-nums">
-              <th>1</th>
-              <th>2</th>
-              <th>3</th>
-              <th>4</th>
-              <th>5</th>
-              <th>6</th>
-              <th>7</th>
-              <th>8</th>
-              <th>9</th>
-              <th>10</th>
-              <th>11</th>
-              <th>12</th>
-              <th>13</th>
-              <th>14</th>
-              <th>15</th>
-              <th>16</th>
-              <th>17</th>
-              <th>18</th>
-            </tr>
-          </div>
-          <div className="periodic-table-20__periods">
-            <tr className="periodic-table-20__first-row">
-              <th className="periodic-table-20__periods-title">1</th>
-              <ChemicalElement element={elements.hydrogen}/>
-              <td colSpan={16}></td>
-              <ChemicalElement element={elements.helium}/>
-            </tr>
-            <tr className="periodic-table-20__second-row">
-              <th className="periodic-table-20__periods-title">2</th>
-              <ChemicalElement element={elements.lithium}/>
-              <ChemicalElement element={elements.beryllium}/>
-              <td colSpan={10}></td>
-              <ChemicalElement element={elements.boron}/>
-              <ChemicalElement element={elements.carbon}/>
-              <ChemicalElement element={elements.nitrogen}/>
-              <ChemicalElement element={elements.oxygen}/>
-              <ChemicalElement element={elements.fluorine}/>
-              <ChemicalElement element={elements.neon}/>
-            </tr>
-            <tr className="periodic-table-20__third-row"> 
-              <th className="periodic-table-20__periods-title">3</th>
-              <ChemicalElement element={elements.sodium}/>
-              <ChemicalElement element={elements.magnesium}/>
-              <td colSpan={10}></td>
-              <ChemicalElement element={elements.aluminum}/>
-              <ChemicalElement element={elements.silicon}/>
-              <ChemicalElement element={elements.phosphorus}/>
-              <ChemicalElement element={elements.sulfur}/>
-              <ChemicalElement element={elements.chlorine}/>
-              <ChemicalElement element={elements.argon}/>
-            </tr>
-            <tr className="periodic-table-20__fourth-row">
-              <th className="periodic-table-20__periods-title">4</th>
-              <ChemicalElement element={elements.potassium}/>
-              <ChemicalElement element={elements.calcium}/>
-              <ChemicalElement element={elements.scandium}/>
-              <ChemicalElement element={elements.titanium}/>
-              <ChemicalElement element={elements.vanadium}/>
-              <ChemicalElement element={elements.chromium}/>
-              <ChemicalElement element={elements.manganese}/>
-              <ChemicalElement element={elements.iron}/>
-              <ChemicalElement element={elements.cobalt}/>
-              <ChemicalElement element={elements.nickel}/>
-              <ChemicalElement element={elements.copper}/>
-              <ChemicalElement element={elements.zinc}/>
-              <ChemicalElement element={elements.gallium}/>
-              <ChemicalElement element={elements.germanium}/>
-              <ChemicalElement element={elements.arsenic}/>
-              <ChemicalElement element={elements.selenium}/>
-              <ChemicalElement element={elements.bromine}/>
-              <ChemicalElement element={elements.krypton}/>
-            </tr>
-            <tr className="periodic-table-20__fifth-row">
-              <th className="periodic-table-20__periods-title">5</th>
-              <ChemicalElement element={elements.rubidium}/>
-              <ChemicalElement element={elements.strontium}/>
-              <ChemicalElement element={elements.yttrium}/>
-              <ChemicalElement element={elements.zirconium}/>
-              <ChemicalElement element={elements.niobium}/>
-              <ChemicalElement element={elements.molybdenum}/>
-              <ChemicalElement element={elements.technetium}/>
-              <ChemicalElement element={elements.ruthenium}/>
-              <ChemicalElement element={elements.rhodium}/>
-              <ChemicalElement element={elements.palladium}/>
-              <ChemicalElement element={elements.silver}/>
-              <ChemicalElement element={elements.cadmium}/>
-              <ChemicalElement element={elements.indium}/>
-              <ChemicalElement element={elements.tin}/>
-              <ChemicalElement element={elements.antimony}/>
-              <ChemicalElement element={elements.tellurium}/>
-              <ChemicalElement element={elements.iodine}/>
-              <ChemicalElement element={elements.xenon}/>
-            </tr>
-            <tr className="periodic-table-20__sixth-row">
-              <th className="periodic-table-20__periods-title">6</th>
-              <ChemicalElement element={elements.caesium}/>
-              <ChemicalElement element={elements.barium}/>
-              <td colSpan={1}></td>
-              <ChemicalElement element={elements.hafnium}/>
-              <ChemicalElement element={elements.tantalum}/>
-              <ChemicalElement element={elements.tungsten}/>
-              <ChemicalElement element={elements.rhenium}/>
-              <ChemicalElement element={elements.osmium}/>
-              <ChemicalElement element={elements.iridium}/>
-              <ChemicalElement element={elements.platinum}/>
-              <ChemicalElement element={elements.gold}/>
-              <ChemicalElement element={elements.mercury}/>
-              <ChemicalElement element={elements.thallium}/>
-              <ChemicalElement element={elements.lead}/>
-              <ChemicalElement element={elements.bismuth}/>
-              <ChemicalElement element={elements.polonium}/>
-              <ChemicalElement element={elements.astatine}/>
-              <ChemicalElement element={elements.radon}/>
-            </tr>
-          </div>
+          <tr className="periodic-table-20__groups">
+            <th className="periodic-table-20__group-title">
+              <h4>Group</h4>
+              <FaArrowAltCircleRight/>
+            </th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+            <th>18</th>
+          </tr>
+          <tr className="periodic-table-20__periods">
+            <th className="periodic-table-20__period-title">
+              <FaArrowAltCircleDown/>
+              <h4>Periods</h4>
+            </th>
+          </tr>
+          <tr className="periodic-table-20__first-period">
+            <th>1</th>
+            <ChemicalElement element={elements.hydrogen}/>
+            <td colSpan={16}></td>
+            <ChemicalElement element={elements.helium}/>
+          </tr>
+          <tr className="periodic-table-20__second-period">
+            <th>2</th>
+            <ChemicalElement element={elements.lithium}/>
+            <ChemicalElement element={elements.beryllium}/>
+            <td colSpan={10}></td>
+            <ChemicalElement element={elements.boron}/>
+            <ChemicalElement element={elements.carbon}/>
+            <ChemicalElement element={elements.nitrogen}/>
+            <ChemicalElement element={elements.oxygen}/>
+            <ChemicalElement element={elements.fluorine}/>
+            <ChemicalElement element={elements.neon}/>
+          </tr>
+          <tr className="periodic-table-20__third-period">
+            <th>3</th>
+            <ChemicalElement element={elements.sodium}/>
+            <ChemicalElement element={elements.magnesium}/>
+            <td colSpan={10}></td>
+            <ChemicalElement element={elements.aluminum}/>
+            <ChemicalElement element={elements.silicon}/>
+            <ChemicalElement element={elements.phosphorus}/>
+            <ChemicalElement element={elements.sulfur}/>
+            <ChemicalElement element={elements.chlorine}/>
+            <ChemicalElement element={elements.argon}/>
+          </tr>
+          <tr className="periodic-table-20__fourth-period">
+            <th>4</th>
+            <ChemicalElement element={elements.potassium}/>
+            <ChemicalElement element={elements.calcium}/>
+            <ChemicalElement element={elements.scandium}/>
+            <ChemicalElement element={elements.titanium}/>
+            <ChemicalElement element={elements.vanadium}/>
+            <ChemicalElement element={elements.chromium}/>
+            <ChemicalElement element={elements.manganese}/>
+            <ChemicalElement element={elements.iron}/>
+            <ChemicalElement element={elements.cobalt}/>
+            <ChemicalElement element={elements.nickel}/>
+            <ChemicalElement element={elements.copper}/>
+            <ChemicalElement element={elements.zinc}/>
+            <ChemicalElement element={elements.gallium}/>
+            <ChemicalElement element={elements.germanium}/>
+            <ChemicalElement element={elements.arsenic}/>
+            <ChemicalElement element={elements.selenium}/>
+            <ChemicalElement element={elements.bromine}/>
+            <ChemicalElement element={elements.krypton}/>
+          </tr>
+          <tr className="periodic-table-20__fifth-period">
+            <th>5</th>
+            <ChemicalElement element={elements.rubidium}/>
+            <ChemicalElement element={elements.strontium}/>
+            <ChemicalElement element={elements.yttrium}/>
+            <ChemicalElement element={elements.zirconium}/>
+            <ChemicalElement element={elements.niobium}/>
+            <ChemicalElement element={elements.molybdenum}/>
+            <ChemicalElement element={elements.technetium}/>
+            <ChemicalElement element={elements.ruthenium}/>
+            <ChemicalElement element={elements.rhodium}/>
+            <ChemicalElement element={elements.palladium}/>
+            <ChemicalElement element={elements.silver}/>
+            <ChemicalElement element={elements.cadmium}/>
+            <ChemicalElement element={elements.gallium}/>
+            <ChemicalElement element={elements.germanium}/>
+            <ChemicalElement element={elements.arsenic}/>
+            <ChemicalElement element={elements.selenium}/>
+            <ChemicalElement element={elements.bromine}/>
+            <ChemicalElement element={elements.krypton}/>
+          </tr>
         </table>
         {/* <div className="periodic-table-20__first-row">
           <div className="periodic-table-20__titles">

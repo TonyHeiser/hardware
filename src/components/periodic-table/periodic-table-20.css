@@ -25,82 +25,57 @@
   margin: 20px;
   padding: 0px;
   border-radius: 10px;
+  padding: 5px;
 
   table.periodic-table-20__table {
 
-    div.periodic-table-20__first-row {
-      display: flex;
-      align-items: center;
-      /* justify-content: space-between; */
+    tr.periodic-table-20__groups {
 
-      div.periodic-table-20__group-period {
-        margin-right: 0.5dvw;
-        border: 2px solid var(--clrblack3);
-        border-radius: 5px;
-        /* padding: 2px; */
+      th.periodic-table-20__group-title {
+        display: flex;
+        align-items: center;
+        font-size: 1dvw;
 
-        th.periodic-table-20__group-title, th.periodic-table-20__period-title {
-          display: flex;
-          align-items: center;
-          font-size: 1dvw;
+        
+
+        h4 {
+          margin-right: 0.5dvw;
         }
-  
-        th.periodic-table-20__group-title h4 {
-          margin-right: 0.4dvw;
-        }
-  
-        th.periodic-table-20__period-title h4 {
+      }
+
+      th {
+        font-size: 1.5dvw;
+      }
+    }
+
+    tr.periodic-table-20__periods {
+
+      th.periodic-table-20__period-title {
+        display: flex;
+        align-items: center;
+        font-size: 1dvw;
+
+        h4 {
           margin-left: 0.3dvw;
         }
       }
-
-      tr.periodic-table-20__group-nums {
-
-        th {
-          border: 2px dashed var(--clrwhite);
-          /* width: 5dvw; */
-          height: 2dvw;
-          font-size: 1dvw;
-          padding-top: 0.2dvw;
-          width: 100%;
-        }
-      }
     }
 
-    
-  }
+    tr.periodic-table-20__first-period, 
+    .periodic-table-20__second-period,
+    .periodic-table-20__third-period,
+    .periodic-table-20__fourth-period,
+    .periodic-table-20__fifth-period {
 
-  .periodic-table-20__periods {
-
-    tr {
-
-      th.periodic-table-20__periods-title {
-        width: 5.5dvw;
-        border: 2px dotted var(--clrwhite);
+      th {
+        border: 2px solid var(--clrblack3);
+        border-radius: 5px;
+        background-color: var(--clrblack2);
+        font-size: 1.5dvw;
       }
     }
   }
 
-  /* div.periodic-table-20__container {
-    display: grid;
-    grid-template-columns: repeat(19, 1fr);
-    gap: 5px;
-
-    div.periodic-table-20__element {
-      background-color: var(--clrblack2);
-      width: 4.5dvw;
-      height: 4dvw;
-      border-radius: 5px;
-      border: 2px solid var(--clrblack3);
-    }
-
-    .periodic-table-20__none-element {
-      width: 4dvw;
-      height: 4dvw;
-    }
-  } */
-
-  
 
   button.nonmetal {
     background-color: var(--clrblue);
@@ -186,68 +161,6 @@
   button.actinide {
     background: linear-gradient(-45deg, var(--clrred3) 0%, var(--clrblack2) 75%);
   }
-
-  /* .periodic-table-20__first-row {
-    display: flex;
-    justify-content: space-between;
-
-    .periodic-table-20__titles {
-      margin-right: 1dvw;
   
-      .periodic-table-20__title {
-        display: flex;
-        align-items: center;
-  
-        h4 {
-          font-size: 1dvw;
-        }
-      }
-  
-      .right {
-        
-        h4 {
-          margin-right: 5px;
-        }
-      }
-  
-      .down {
-        h4 {
-          margin-left: 5px;
-        }
-      }
-    }
-  
-    .periodic-table-20__groups {
-      display: grid;
-      grid-template-columns: repeat(18, 1fr);
-      width: 100%;
-      gap: 0.2dvw;
-  
-      span.periodic-table-20__group {
-        border: 2px dashed var(--clrwhite);
-        width: 4.5dvw;
-        text-align: center;
-        padding-top: 6px;
-        display: block;
-        
-      }
-    }
-  }
-
-  .periodic-table-20__second-row {
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-   */
 }
 
-/* span.periodic-table-20__period {
-  border: 2px dashed var(--clryellow);
-  width: 5dvw;
-  height: 4dvw;
-  display: block;
-  text-align: center;
-  padding-top: 1.3dvw;
-} */
