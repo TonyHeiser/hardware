@@ -2,7 +2,6 @@ import "./periodic-table-20.css"
 import { FaArrowAltCircleRight, FaArrowAltCircleDown } from "react-icons/fa";
 import ChemicalElement from "./PeriodicTableElement.jsx";
 import { elements } from "./periodic-table-data.js";
-import { BiSolidDiamond } from "react-icons/bi";
 
 export default function PeriodicTable20() {
   return (

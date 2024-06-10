@@ -31,13 +31,13 @@
     div.periodic-table-20__first-row {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      /* justify-content: space-between; */
 
       div.periodic-table-20__group-period {
         margin-right: 0.5dvw;
         border: 2px solid var(--clrblack3);
         border-radius: 5px;
-        padding: 2px;
+        /* padding: 2px; */
 
         th.periodic-table-20__group-title, th.periodic-table-20__period-title {
           display: flex;
@@ -58,10 +58,11 @@
 
         th {
           border: 2px dashed var(--clrwhite);
-          width: 5dvw;
+          /* width: 5dvw; */
           height: 2dvw;
           font-size: 1dvw;
           padding-top: 0.2dvw;
+          width: 100%;
         }
       }
     }
