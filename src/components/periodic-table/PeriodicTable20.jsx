@@ -103,12 +103,90 @@ export default function PeriodicTable20() {
             <ChemicalElement element={elements.palladium}/>
             <ChemicalElement element={elements.silver}/>
             <ChemicalElement element={elements.cadmium}/>
-            <ChemicalElement element={elements.gallium}/>
-            <ChemicalElement element={elements.germanium}/>
-            <ChemicalElement element={elements.arsenic}/>
-            <ChemicalElement element={elements.selenium}/>
-            <ChemicalElement element={elements.bromine}/>
-            <ChemicalElement element={elements.krypton}/>
+            <ChemicalElement element={elements.indium}/>
+            <ChemicalElement element={elements.tin}/>
+            <ChemicalElement element={elements.antimony}/>
+            <ChemicalElement element={elements.tellurium}/>
+            <ChemicalElement element={elements.iodine}/>
+            <ChemicalElement element={elements.xenon}/>
+          </tr>
+          <tr className="periodic-table-20__sixth-period">
+            <th>6</th>
+            <ChemicalElement element={elements.caesium}/>
+            <ChemicalElement element={elements.barium}/>
+            <td className="td__lanthanide">Lanthanide</td>
+            <ChemicalElement element={elements.hafnium}/>
+            <ChemicalElement element={elements.tantalum}/>
+            <ChemicalElement element={elements.tungsten}/>
+            <ChemicalElement element={elements.rhenium}/>
+            <ChemicalElement element={elements.osmium}/>
+            <ChemicalElement element={elements.iridium}/>
+            <ChemicalElement element={elements.platinum}/>
+            <ChemicalElement element={elements.gold}/>
+            <ChemicalElement element={elements.mercury}/>
+            <ChemicalElement element={elements.thallium}/>
+            <ChemicalElement element={elements.lead}/>
+            <ChemicalElement element={elements.bismuth}/>
+            <ChemicalElement element={elements.polonium}/>
+            <ChemicalElement element={elements.astatine}/>
+            <ChemicalElement element={elements.radon}/>
+          </tr>
+          <tr className="periodic-table-20__seventh-period">
+            <th>7</th>
+            <ChemicalElement element={elements.francium}/>
+            <ChemicalElement element={elements.radium}/>
+            <td className="td__actinide">Actinide</td>
+            <ChemicalElement element={elements.rutherfordium}/>
+            <ChemicalElement element={elements.dubnium}/>
+            <ChemicalElement element={elements.seaborgium}/>
+            <ChemicalElement element={elements.bohrium}/>
+            <ChemicalElement element={elements.hassium}/>
+            <ChemicalElement element={elements.meitnerium}/>
+            <ChemicalElement element={elements.darmstadtium}/>
+            <ChemicalElement element={elements.roentgenium}/>
+            <ChemicalElement element={elements.copernicium}/>
+            <ChemicalElement element={elements.nihonium}/>
+            <ChemicalElement element={elements.flerovium}/>
+            <ChemicalElement element={elements.moscovium}/>
+            <ChemicalElement element={elements.livermorium}/>
+            <ChemicalElement element={elements.tennessine}/>
+            <ChemicalElement element={elements.oganesson}/>
+          </tr>
+          <tr className="periodic-table-20__lanthanide">
+            <th colSpan={4}>Lanthanide</th>
+            <ChemicalElement element={elements.lantanium}/>
+            <ChemicalElement element={elements.cerium}/>
+            <ChemicalElement element={elements.praseodymium}/>
+            <ChemicalElement element={elements.neodymium}/>
+            <ChemicalElement element={elements.promethium}/>
+            <ChemicalElement element={elements.samarium}/>
+            <ChemicalElement element={elements.europium}/>
+            <ChemicalElement element={elements.gadolinium}/>
+            <ChemicalElement element={elements.terbium}/>
+            <ChemicalElement element={elements.dysprosium}/>
+            <ChemicalElement element={elements.holmium}/>
+            <ChemicalElement element={elements.erbium}/>
+            <ChemicalElement element={elements.thulium}/>
+            <ChemicalElement element={elements.ytterbium}/>
+            <ChemicalElement element={elements.lutetium}/>
+          </tr>
+          <tr className="periodic-table-20__actinide">
+            <th colSpan={4}>Actinide</th>
+            <ChemicalElement element={elements.actinium}/>
+            <ChemicalElement element={elements.thorium}/>
+            <ChemicalElement element={elements.protactinium}/>
+            <ChemicalElement element={elements.uranium}/>
+            <ChemicalElement element={elements.neptunium}/>
+            <ChemicalElement element={elements.plutonium}/>
+            <ChemicalElement element={elements.americium}/>
+            <ChemicalElement element={elements.curium}/>
+            <ChemicalElement element={elements.berkelium}/>
+            <ChemicalElement element={elements.californium}/>
+            <ChemicalElement element={elements.einsteinium}/>
+            <ChemicalElement element={elements.fermium}/>
+            <ChemicalElement element={elements.mendelevium}/>
+            <ChemicalElement element={elements.nobelium}/>
+            <ChemicalElement element={elements.lawrencium}/>
           </tr>
         </table>
         {/* <div className="periodic-table-20__first-row">

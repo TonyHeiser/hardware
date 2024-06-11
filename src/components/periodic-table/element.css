@@ -66,3 +66,7 @@ button.periodic-table20__btn:active {
   background-color: var(--clrwhite);
   color: var(--clrblack);
 }
+
+.small {
+  font-size: 0.5dvw;
+}

@@ -6,7 +6,7 @@ export default function ChemicalElement({element}) {
 
   return (
     <td>
-      <button className={`periodic-table-20__btn ${element.group}`}>
+      <button className={`periodic-table-20__btn ${element.group} ${element.fstyle}`}>
         <div className="element20-info__up">
           <span className="element20__char span-text">{element.char}</span>
           <span className="element20__number span-text">{element.number}</span>

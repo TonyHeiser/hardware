@@ -911,6 +911,7 @@ export const elements = {
     nameRus: "Протактиний",
     nameEng: "Protactinium",
     group: "actinide",
+    fstyle: "small",
   },
 
   uranium: {

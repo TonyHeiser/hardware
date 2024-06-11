@@ -65,13 +65,40 @@
     .periodic-table-20__second-period,
     .periodic-table-20__third-period,
     .periodic-table-20__fourth-period,
-    .periodic-table-20__fifth-period {
+    .periodic-table-20__fifth-period,
+    .periodic-table-20__sixth-period,
+    .periodic-table-20__seventh-period {
 
       th {
         border: 2px solid var(--clrblack3);
         border-radius: 5px;
         background-color: var(--clrblack2);
         font-size: 1.5dvw;
+      }
+    }
+
+    tr.periodic-table-20__sixth-period {
+
+      td.td__lanthanide {
+        font-size: 0.75dvw;
+        text-align: center;
+      }
+    }
+
+    tr.periodic-table-20__seventh-period {
+
+      td.td__actinide {
+        font-size: 0.85dvw;
+        text-align: center;
+      }
+    }
+    
+    tr.periodic-table-20__lanthanide,
+    .periodic-table-20__actinide {
+      th {
+        background-color: var(--clrblack2);
+        border-radius: 5px;
+        font-size: 1.75dvw;
       }
     }
   }
