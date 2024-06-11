@@ -117,7 +117,8 @@ export const elements = {
     electronegativity: 1.31,
     nameRus: "Магний",
     nameEng: "Magnesium",
-    group: "alkalineEarthMetal"
+    group: "alkalineEarthMetal",
+    fstyle: "small",
   },
 
   aluminum: {
@@ -148,6 +149,7 @@ export const elements = {
     nameRus: "Фосфор",
     nameEng: "Phosphorus",
     group: "nonmetal",
+    fstyle: "small",
   },
 
   sulfur: {
@@ -249,6 +251,7 @@ export const elements = {
     nameRus: "Марганец",
     nameEng: "Manganese",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   iron: {
@@ -319,6 +322,7 @@ export const elements = {
     nameRus: "Германий",
     nameEng: "Germanium",
     group: "metalloid",
+    fstyle: "small",
   },
 
   arsenic: {
@@ -419,6 +423,7 @@ export const elements = {
     nameRus: "Молибден",
     nameEng: "Molybdenum",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   technetium: {
@@ -429,6 +434,7 @@ export const elements = {
     nameRus: "Технеций",
     nameEng: "Technetium",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   ruthenium: {
@@ -591,6 +597,7 @@ export const elements = {
     nameRus: "Празеодим",
     nameEng: "Praseodymium",
     group: "lanthanide",
+    fstyle: "small",
   },
 
   neodymium: {
@@ -601,6 +608,7 @@ export const elements = {
     nameRus: "Неодим",
     nameEng: "Neodymium",
     group: "lanthanide",
+    fstyle: "small",
   },
 
   promethium: {
@@ -611,6 +619,7 @@ export const elements = {
     nameRus: "Прометий",
     nameEng: "Promethium",
     group: "lanthanide",
+    fstyle: "small",
   },
 
   samarium: {
@@ -661,6 +670,7 @@ export const elements = {
     nameRus: "Диспрозий",
     nameEng: "Dysprosium",
     group: "lanthanide",
+    fstyle: "small",
   },
 
   holmium: {
@@ -982,6 +992,7 @@ export const elements = {
     nameRus: "Калифорний",
     nameEng: "Californium",
     group: "actinide",
+    fstyle: "small",
   },
 
   einsteinium: {
@@ -992,6 +1003,7 @@ export const elements = {
     nameRus: "Эйнштейний",
     nameEng: "Einsteinium",
     group: "actinide",
+    fstyle: "small",
   },
 
   fermium: {
@@ -1012,6 +1024,7 @@ export const elements = {
     nameRus: "Менделеевий",
     nameEng: "Mendelevium",
     group: "actinide",
+    fstyle: "small",
   },
 
   nobelium: {
@@ -1032,6 +1045,7 @@ export const elements = {
     nameRus: "Лавренций",
     nameEng: "Lawrencium",
     group: "actinide",
+    fstyle: "small",
   },
 
   rutherfordium: {
@@ -1042,6 +1056,7 @@ export const elements = {
     nameRus: "Резерфордий",
     nameEng: "Rutherfordium",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   dubnium: {
@@ -1062,6 +1077,7 @@ export const elements = {
     nameRus: "Сиборгий",
     nameEng: "Seaborgium",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   bohrium: {
@@ -1102,6 +1118,7 @@ export const elements = {
     nameRus: "Дармштадтий",
     nameEng: "Darmstadtium",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   roentgenium: {
@@ -1112,6 +1129,7 @@ export const elements = {
     nameRus: "Рентгений",
     nameEng: "Roentgenium",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   copernicium: {
@@ -1122,6 +1140,7 @@ export const elements = {
     nameRus: "Коперниций",
     nameEng: "Copernicium",
     group: "transitionMetal",
+    fstyle: "small",
   },
 
   nihonium: {
@@ -1162,6 +1181,7 @@ export const elements = {
     nameRus: "",
     nameEng: "Livermorium",
     group: "basicMetal",
+    fstyle: "small",
   },
 
   tennessine: {
@@ -1172,6 +1192,7 @@ export const elements = {
     nameRus: "",
     nameEng: "Tennessine",
     group: "halogen",
+    fstyle: "small",
   },
 
   oganesson: {
@@ -1182,6 +1203,7 @@ export const elements = {
     nameRus: "",
     nameEng: "Oganesson",
     group: "nobleGas",
+    fstyle: "small",
   },
 
 }

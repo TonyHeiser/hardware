@@ -113,6 +113,8 @@
 
   button.periodic-table-20__btn:active {
     transform: scale(0.95);
+    background-color: var(--clrwhite);
+    color: var(--clrblack);
   }
 
   button.nonmetal {
@@ -125,6 +127,10 @@
     background-color: var(--clrblue2);
   }
 
+  button.nonmetal:active {
+    background-color: var(--clrwhite);
+  }
+
   button.alkaliMetal {
     background-color: var(--clrred);
     transition: 0.1s;
@@ -132,6 +138,10 @@
 
   button.alkaliMetal:hover {
     background-color: var(--clrred2);
+  }
+
+  button.alkaliMetal:active {
+    background-color: var(--clrwhite);
   }
 
   button.alkalineEarthMetal {
@@ -177,6 +187,10 @@
     background-color: var(--clrgreen2);
   }
 
+  button.basicMetal:active {
+    background-color: var(--clrwhite);
+  }
+
   button.transitionMetal {
     background-color: var(--clryellow);
     color: var(--clrblack);
@@ -185,6 +199,10 @@
 
   button.transitionMetal:hover {
     background-color: var(--clryellow2);
+  }
+
+  button.transitionMetal:active {
+    background-color: var(--clrwhite);
   }
 
   button.lanthanide {
@@ -196,12 +214,18 @@
     background-color: var(--clrred4);
   }
 
+  button.lanthanide:active {
+    background-color: var(--clrwhite);
+  }
+
   button.actinide {
     background: linear-gradient(-45deg, var(--clrred3) 0%, var(--clrblack2) 75%);
+    transition: 0.1s;
+  }
+
+  button.actinide:active {
+    background: none;
+    background-color: var(--clrwhite);
   }
   
-}
-
-.small {
-  font-size: 1.5dvw;
 }

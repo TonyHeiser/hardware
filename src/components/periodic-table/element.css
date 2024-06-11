@@ -52,6 +52,10 @@ button.periodic-table-20__btn {
   span.element20__name {
     font-size: 0.9dvw;
     text-align: left;
+
+    &.small {
+      font-size: 0.7dvw;
+    }
   }
 
   
@@ -61,11 +65,11 @@ button.periodic-table20__btn:hover {
   transform: scale(1.05);
 }
 
-button.periodic-table20__btn:active {
+/* button.periodic-table20__btn:active {
   transform: scale(0.95);
   background-color: var(--clrwhite);
   color: var(--clrblack);
-}
+} */
 
 .small {
   font-size: 1.5dvw;
