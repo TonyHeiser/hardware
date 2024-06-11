@@ -36,6 +36,10 @@ button.periodic-table-20__btn {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.4dvw;
+
+    .element20__char {
+      font-family: "Helvetica-Bold";
+    }
   }
 
   .element20-info__center {
