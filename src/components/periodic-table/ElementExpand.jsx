@@ -17,13 +17,17 @@ export default function ElementExpand({element, closeExpand}) {
         <div className="element-expand__flex">
           <div className="element-expand__parameters">
             <p className="element-expand__atomic-mass">Atomic Mass:</p>
+            <p className="element-expand__electronegativity">Electronegativity:</p>
             <p className="element-expand__melting-point">Melting Point (K, °C, °F):</p>
             <p className="element-expand__boiling-point">Boiling Point (K, °C, °F): </p>
+            <p className="element-expand__standart-state">Standart State:</p>
           </div>
           <div className="element-expand__values">
             <p className="element-expand__atomic-mass">{element.atomicMass}</p>
+            <p className="element-expand__electronegativity">{element.electronegativity}</p>
             <p className="element-expand__melting-point">{element.meltingPointK}, {element.meltingPointC}, {element.meltingPointF}</p>
             <p className="element-expand__boiling-point">{element.boilingPointK}, {element.boilingPointC}, {element.boilingPointF}</p>
+            <p className="element-expand__standart-state">{element.standartState}</p>
           </div>
         </div>
         <p className="element-expand__info-text">{element.info}</p>

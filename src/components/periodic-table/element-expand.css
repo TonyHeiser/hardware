@@ -23,7 +23,7 @@
 .element-expand {
   width: 100dvw;
   height: 100dvh;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(5px);
   position: fixed;
   top: 0;
   left: 0;
@@ -86,20 +86,27 @@
     .element-expand__flex {
       margin-top: 20px;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       margin-bottom: 20px;
 
       .element-expand__parameters {
 
-        p.element-expand__atomic-mass {
+        p {
           margin-bottom: 15px;
+          text-align: left;
+        }
+
+        p.element-expand__atomic-mass {
         }
     
         p.element-expand__melting-point {
-          margin-bottom: 15px;
         }
     
         p.element-expand__boiling-point {
+
+        }
+
+        p.element-expand__standart-state {
 
         }
     
@@ -109,18 +116,23 @@
       }
 
       .element-expand__values {
-        margin-right: 5dvw;
+        margin-right: 7.5dvw;
+
+        p {
+          margin-bottom: 15px;
+        }
         
         p.element-expand__atomic-mass {
-          margin-bottom: 15px;
+        }
+
+        p.element-expand__electronegativity {
+
         }
     
         p.element-expand__melting-point {
-          margin-bottom: 15px;
         }
     
         p.element-expand__boiling-point {
-          margin-bottom: 15px;
         }
     
         p.element-expand__info-text {

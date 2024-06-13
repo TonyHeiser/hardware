@@ -14,9 +14,9 @@ export const elements = {
     meltingPointC: "-259.34°C",
     meltingPointF: "-434.812°F",
     boilingPointK: "20.28 K",
-    boilingPointC: "-252,87°C",
-    boilingPointF: "-423,166°F",
-    info: "Hydrogen is an invisible gas. Clean hydrogen has three primary applications in a decarbonized economy: energy storage and load balancing, as a feedstock, and as a fuel."
+    boilingPointC: "-252.87°C",
+    boilingPointF: "-423.166°F",
+    info: "Hydrogen is an invisible gas. Clean hydrogen has three primary applications in a decarbonized economy: energy storage and load balancing, as a feedstock, and as a fuel.",
   },
 
   helium: {
@@ -24,10 +24,18 @@ export const elements = {
     char: "He",
     number: 2,
     atomicMass: 4.0,
-    electronegativity: null,
+    electronegativity: 0,
     nameRus: "Гелий",
     nameEng: "Helium",
     group: "nobleGas",
+    standartState: "Gas",
+    meltingPointK: "0.95 K",
+    meltingPointC: "-272.2°C",
+    meltingPointF: "-457.96°F",
+    boilingPointK: "4.22 K",
+    boilingPointC: "-268.93°C",
+    boilingPointF: "-452.074°F",
+    info: "Helium is a colorless and odorless inert gas. Helium is a safe tracer gas because it is inert. Manufacturers of aerosol products, tires, refrigerators, fire extinguishers, air conditioners and other devices use helium to test seals before their products come to market.",
   },
 
   lithium: {
@@ -660,6 +668,7 @@ export const elements = {
     nameRus: "Гадолиний",
     nameEng: "Gadolinium",
     group: "lanthanide",
+    fstyle: "small",
   },
 
   terbium: {
