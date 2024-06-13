@@ -2,11 +2,14 @@ import "./periodic-table-20.css"
 import { FaArrowAltCircleRight, FaArrowAltCircleDown } from "react-icons/fa";
 import ChemicalElement from "./PeriodicTableElement.jsx";
 import { elements } from "./periodic-table-data.js";
+import ElementExpand from "./ElementExpand.jsx";
 
 export default function PeriodicTable20() {
+
   return (
     <>
       <div className="periodic-table-20">
+        {/* <ElementExpand element={elements.hydrogen}/> */}
         <table className="periodic-table-20__table">
           <tr className="periodic-table-20__groups">
             <th className="periodic-table-20__group-title">

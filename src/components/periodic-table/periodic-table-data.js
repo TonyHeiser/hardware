@@ -1,6 +1,7 @@
 export const elements = {
 
   hydrogen: {
+    name: "Hydrogen",
     char: "H",
     number: 1,
     atomicMass: 1.01,
@@ -8,9 +9,18 @@ export const elements = {
     nameRus: "Водород",
     nameEng: "Hydrogen",
     group: "nonmetal",
+    standartState: "Gas",
+    meltingPointK: "13.81 K",
+    meltingPointC: "-259.34°C",
+    meltingPointF: "-434.812°F",
+    boilingPointK: "20.28 K",
+    boilingPointC: "-252,87°C",
+    boilingPointF: "-423,166°F",
+    info: "Hydrogen is an invisible gas. Clean hydrogen has three primary applications in a decarbonized economy: energy storage and load balancing, as a feedstock, and as a fuel."
   },
 
   helium: {
+    name: "Helium",
     char: "He",
     number: 2,
     atomicMass: 4.0,

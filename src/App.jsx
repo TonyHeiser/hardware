@@ -2,7 +2,6 @@ import  "./App.css"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Toggle from "./components/Toggle"
-import PeriodicTable from "./components/periodic-table/PeriodicTable"
 import PeriodicTable20 from "./components/periodic-table/PeriodicTable20"
 import Namae from "./components/withUseEffect/WithUseEffect"
 
