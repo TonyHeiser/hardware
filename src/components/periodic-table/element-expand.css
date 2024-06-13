@@ -1,0 +1,138 @@
+:root {
+  --clrblack: #1e272e;
+  --clrblack2: #2f3640;
+  --clrblack3: #353b48;
+  --clrred: #c23616;
+  --clrred2: #e84118;
+  --clrred3: #eb3b5a;
+  --clrred4: #fc5c65;
+  --clrblue: #0097e6;
+  --clrblue2: #00a8ff;
+  --clrgreen: #44bd32;
+  --clrgreen2: #4cd137;
+  --clrgreen3: #27ae60;
+  --clrgreen4: #2ecc71;
+  --clrwhite: #f5f6fa;
+  --clrpurple: #8e44ad;
+  --clrpurple2: #9b59b6;
+  --clryellow: #f1c40f;
+  --clryellow2: #fff200;
+  --clrorange: #e67e22;
+}
+
+.element-expand {
+  width: 100dvw;
+  height: 100dvh;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  .element-expand__under-expand {
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .element-expand__container {
+    border-radius: 10px;
+    padding: 15px;
+    width: 50dvw;
+    background-color: rgba(53, 59, 72, 0.9);
+    backdrop-filter: blur(5px);
+    color: var(--clrwhite);
+    box-shadow: 0 0 5px #000;
+    z-index: 3;
+
+    .element-expand__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h1.element-expand__title {
+        
+      }
+
+      button.element-expand__close-btn {
+        font-size: 2.5dvw;
+        background-color: var(--clrred);
+        border: none;
+        border-radius: 50%;
+        width: 3dvw;
+        height: 3dvw;
+        padding-top: 0.15dvw;
+        padding-left: 0.15dvw;
+        transition: 0.1s;
+      }
+
+      button.element-expand__close-btn:hover {
+        background-color: var(--clrwhite);
+        transform: scale(1.05);
+      }
+
+      button.element-expand__close-btn:active {
+        transform: scale(0.95);
+        color: var(--clrred);
+      }
+    }
+
+    .element-expand__flex {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+
+      .element-expand__parameters {
+
+        p.element-expand__atomic-mass {
+          margin-bottom: 15px;
+        }
+    
+        p.element-expand__melting-point {
+          margin-bottom: 15px;
+        }
+    
+        p.element-expand__boiling-point {
+
+        }
+    
+        p.element-expand__info-text {
+    
+        }
+      }
+
+      .element-expand__values {
+        margin-right: 5dvw;
+        
+        p.element-expand__atomic-mass {
+          margin-bottom: 15px;
+        }
+    
+        p.element-expand__melting-point {
+          margin-bottom: 15px;
+        }
+    
+        p.element-expand__boiling-point {
+          margin-bottom: 15px;
+        }
+    
+        p.element-expand__info-text {
+    
+        }
+      }
+
+      
+    }
+
+    
+
+    
+  }
+}
