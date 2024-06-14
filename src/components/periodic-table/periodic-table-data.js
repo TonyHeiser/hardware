@@ -115,6 +115,7 @@ export const elements = {
   },
 
   nitrogen: {
+    latinName: "Nitrogenium",
     char: "N",
     number: 7,
     atomicMass: 14.0,
@@ -122,6 +123,14 @@ export const elements = {
     nameRus: "Азот",
     nameEng: "Nitrogen",
     group: "nonmetal",
+    standartState: "Gas",
+    meltingPointK: "63.15 K",
+    meltingPointC: "-210.15°C",
+    meltingPointF: "-346.27°F",
+    boilingPointK: "77.36 K",
+    boilingPointC: "-196.15°C",
+    boilingPointF: "-321.07°F",
+    info: "Nitrogen is a colorless, odorless, and tasteless gas at room temperature. It makes up about 78% of the Earth's atmosphere and is essential for all life on Earth. Nitrogen is used in many different industries, including: Food industry, Chemical industry, Metal industry, Medical industry and Electronics industry.",
   },
 
   oxygen: {
