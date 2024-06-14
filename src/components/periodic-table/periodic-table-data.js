@@ -1,7 +1,7 @@
 export const elements = {
 
   hydrogen: {
-    name: "Hydrogen",
+    latinName: "Hydrogenium",
     char: "H",
     number: 1,
     atomicMass: 1.01,
@@ -20,7 +20,7 @@ export const elements = {
   },
 
   helium: {
-    name: "Helium",
+    latinName: "Helium",
     char: "He",
     number: 2,
     atomicMass: 4.0,
@@ -39,6 +39,7 @@ export const elements = {
   },
 
   lithium: {
+    latinName: "Lithos",
     char: "Li",
     number: 3,
     atomicMass: 6.9,
@@ -46,19 +47,37 @@ export const elements = {
     nameRus: "Литий",
     nameEng: "Lithium",
     group: "alkaliMetal",
+    standartState: "Solid",
+    meltingPointK: "453.65 K",
+    meltingPointC: "180.5°C",
+    meltingPointF: "356.9°F",
+    boilingPointK: "1615 K",
+    boilingPointC: "1341.85°C",
+    boilingPointF: "2447.33°F",
+    info: "Lithium is a soft, silvery-white, metal. It has the lowest density of all metals. It reacts vigorously with water. The most important use of lithium is in rechargeable batteries for mobile phones, laptops, digital cameras and electric vehicles. Lithium is also used in some non-rechargeable batteries for things like heart pacemakers, toys and clocks."
   },
 
   beryllium: {
+    latinName: "Beryllium",
     char: "Be",
     number: 4,
     atomicMass: 9.0,
     electronegativity: 1.57,
     nameRus: "Берилий",
     nameEng: "Beryllium",
-    group: "alkalineEarthMetal"
+    group: "alkalineEarthMetal",
+    standartState: "Solid",
+    meltingPointK: "1560 K",
+    meltingPointC: "1286.85°C",
+    meltingPointF: "2348.33°F",
+    boilingPointK: "2744 K",
+    boilingPointC: "2470.85°C",
+    boilingPointF: "4479.53°F",
+    info: "Beryllium is a silvery-white metal. It is relatively soft and has a low density. Beryllium is used in alloys with copper or nickel to make gyroscopes, springs, electrical contacts, spot-welding electrodes and non-sparking tools."
   },
 
   boron: {
+    latinName: "Borum",
     char: "B",
     number: 5,
     atomicMass: 10.8,
@@ -66,16 +85,33 @@ export const elements = {
     nameRus: "Бор",
     nameEng: "Boron",
     group: "metalloid",
+    standartState: "Solid",
+    meltingPointK: "2348 K",
+    meltingPointC: "2074.85°C",
+    meltingPointF: "3766.73°F",
+    boilingPointK: "4273 K",
+    boilingPointC: "3999.85°C",
+    boilingPointF: "7231.73°F",
+    info: "Boron is a metalloid (an element which has both metallic and non-metallic properties) that has an odourless, black, hard solid appearance. It can also appear as a brown amorphous powder. Boron is used in borosilicate glass and ceramics for their thermal resistance, as a micronutrient in fertilizers, and in detergents for cleaning efficiency. It strengthens steel, aids in semiconductor doping, and serves as a neutron absorber in nuclear reactors. Boron compounds are also utilized in drug delivery, aerospace materials, and advanced batteries."
   },
 
   carbon: {
+    latinName: "Carbonium",
     char: "C",
     number: 6,
     atomicMass: 12.0,
     electronegativity: 2.55,
     nameRus: "Углерод",
     nameEng: "Carbon",
-    group: "nonmetal"
+    group: "nonmetal",
+    standartState: "Solid",
+    meltingPointK: "3823 K",
+    meltingPointC: "3549.85°C",
+    meltingPointF: "6421.73°F",
+    boilingPointK: "4098 K",
+    boilingPointC: "3824.85°C",
+    boilingPointF: "6916.73°F",
+    info: "Carbon is a versatile element that appears in various forms, such as diamond, graphite, and amorphous carbon. Diamonds are transparent and extremely hard, while graphite is opaque and soft with a metallic luster. Carbon is used in steel production, as a lubricant in the form of graphite, and as a key component in organic chemistry. It is also essential in the production of plastics, pharmaceuticals, and as a basis for life in biological molecules.",
   },
 
   nitrogen: {

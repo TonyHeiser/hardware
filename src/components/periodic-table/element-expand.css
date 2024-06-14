@@ -38,7 +38,7 @@
     top: 0;
     left: 0;
     position: fixed;
-    z-index: 2;
+    z-index: 5;
   }
 
   .element-expand__container {
@@ -49,7 +49,7 @@
     backdrop-filter: blur(5px);
     color: var(--clrwhite);
     box-shadow: 0 0 5px #000;
-    z-index: 3;
+    z-index: 6;
 
     .element-expand__header {
       display: flex;
@@ -147,4 +147,35 @@
 
     
   }
+}
+
+@media screen and (max-width: 768px) {
+
+  .element-expand {
+
+    .element-expand__container {
+      width: 75dvw;
+
+      .element-expand__flex {
+
+        .element-expand__values {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+
+  .element-expand {
+
+    .element-expand__container {
+      width: 90dvw;
+
+      
+    }
+  }
+  
 }

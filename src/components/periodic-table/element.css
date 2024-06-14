@@ -28,7 +28,7 @@ button.periodic-table-20__btn {
   font-size: 1.1vw;
   font-family: inherit;
   padding: 0.2dvw;
-  width: 4.95dvw;
+  width: 4.7dvw;
   transition: 0.1s;
   height: 5vw;
 
@@ -45,7 +45,7 @@ button.periodic-table-20__btn {
   .element20-info__center {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 0.5dvw;
     font-size: 0.85dvw;
 
     span.element__atomic-mass, span.element__electronegativity {
