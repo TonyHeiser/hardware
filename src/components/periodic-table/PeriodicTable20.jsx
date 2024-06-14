@@ -2,7 +2,6 @@ import "./periodic-table-20.css"
 import { FaArrowAltCircleRight, FaArrowAltCircleDown } from "react-icons/fa";
 import ChemicalElement from "./PeriodicTableElement.jsx";
 import { elements } from "./periodic-table-data.js";
-import ElementExpand from "./ElementExpand.jsx";
 
 export default function PeriodicTable20() {
 
@@ -193,7 +192,7 @@ export default function PeriodicTable20() {
           </tr>
         </table>
         <div className="periodic-table-20__mobile-version">
-          
+
         </div>
       </div>
     </>
