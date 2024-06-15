@@ -134,16 +134,26 @@ export const elements = {
   },
 
   oxygen: {
+    latinName: "Oxygenium",
     char: "O",
     number: 8,
     atomicMass: 16.0,
     electronegativity: 3.44,
     nameRus: "Кислород",
     nameEng: "Oxygen",
-    group: "nonmetal"
+    group: "nonmetal",
+    standartState: "Gas",
+    meltingPointK: "54.36 K",
+    meltingPointC: "-219.15°C",
+    meltingPointF: "-362.47°F",
+    boilingPointK: "90 K",
+    boilingPointC: "-183.15°C",
+    boilingPointF: "-297.67°F",
+    info: "Oxygen is a colorless, odorless, and tasteless gas at room temperature. In its pure form, it is used in medical applications to aid breathing, in industrial processes such as steelmaking, and as an oxidizer in rocket propulsion systems. Additionally, pure oxygen is used in various scientific research and environmental monitoring activities.",
   },
 
   fluorine: {
+    latinName: "Fluorum",
     char: "F",
     number: 9,
     atomicMass: 19.0,
@@ -151,19 +161,37 @@ export const elements = {
     nameRus: "Фтор",
     nameEng: "Fluorine",
     group: "halogen",
+    standartState: "Gas",
+    meltingPointK: "53.53 K",
+    meltingPointC: "-220.15°C",
+    meltingPointF: "-364.27°F",
+    boilingPointK: "85.03 K",
+    boilingPointC: "-188.15°C",
+    boilingPointF: "-306.67°F",
+    info: "Oxygen is a colorless, odorless, and tasteless gas at room temperature. In its pure form, it is used in medical applications to aid breathing, in industrial processes such as steelmaking, and as an oxidizer in rocket propulsion systems. Additionally, pure oxygen is used in various scientific research and environmental monitoring activities.",
   },
 
   neon: {
+    latinName: "Neon",
     char: "Ne",
     number: 10,
     atomicMass: 20.2,
     electronegativity: null,
     nameRus: "Неон",
     nameEng: "Neon",
-    group: "nobleGas"
+    group: "nobleGas",
+    standartState: "Gas",
+    meltingPointK: "24.56 K",
+    meltingPointC: "-249.15°C",
+    meltingPointF: "-416.47°F",
+    boilingPointK: "27.07 K",
+    boilingPointC: "-246.15°C",
+    boilingPointF: "-411.07°F",
+    info: "Neon is a noble gas that appears as a colorless, odorless gas under standard conditions. When electrically charged, it emits a bright reddish-orange glow, which is characteristic of neon signs. These signs are widely used in advertising and decoration due to neon's ability to produce intense colors and its inertness. Additionally, neon is used in high-voltage indicators, lightning arrestors, and in vacuum tubes.",
   },
 
   sodium: {
+    latinName: "Natrium",
     char: "Na",
     number: 11,
     atomicMass: 23.0,
@@ -171,9 +199,18 @@ export const elements = {
     nameRus: "Натрий",
     nameEng: "Sodium",
     group: "alkaliMetal",
+    standartState: "Solid",
+    meltingPointK: "370.95 K",
+    meltingPointC: "96.85°C",
+    meltingPointF: "206.33°F",
+    boilingPointK: "1156 K",
+    boilingPointC: "882.85°C",
+    boilingPointF: "1621.13°F",
+    info: "Sodium is a soft, silvery-white metal that is highly reactive and must be stored under oil to prevent it from reacting with moisture in the air. It is essential for various biological functions and is a key component of table salt (sodium chloride). Sodium compounds are widely used in industry, such as in the production of glass, soap, and paper. Additionally, sodium is crucial in maintaining electrolyte balance in the human body and is involved in nerve function and muscle contraction.",
   },
 
   magnesium: {
+    latinName: "Magnesium",
     char: "Mg",
     number: 12,
     atomicMass: 24.3,
@@ -182,9 +219,18 @@ export const elements = {
     nameEng: "Magnesium",
     group: "alkalineEarthMetal",
     fstyle: "small",
+    standartState: "Solid",
+    meltingPointK: "923 K",
+    meltingPointC: "649.85°C",
+    meltingPointF: "1201.73°F",
+    boilingPointK: "1363 K",
+    boilingPointC: "1089.85°C",
+    boilingPointF: "1993.73°F",
+    info: "Magnesium is a silvery-white metal that is lightweight and relatively strong. It is commonly used in alloys to improve the mechanical, fabrication, and corrosion resistance properties of metals, such as in the aerospace and automotive industries. Magnesium compounds are also utilized in various applications; for example, magnesium oxide is used in refractory materials, and magnesium hydroxide is used in medications as an antacid and laxative. Moreover, magnesium is essential for biological functions in the human body, playing a key role in muscle and nerve function, energy production, and bone health.",
   },
 
   aluminum: {
+    latinName: "Aluminium",
     char: "Al",
     number: 13,
     atomicMass: 27,
@@ -192,16 +238,32 @@ export const elements = {
     nameRus: "Алюминий",
     nameEng: "Aluminum",
     group: "basicMetal",
+    standartState: "Solid",
+    meltingPointK: "933.437 K",
+    meltingPointC: "659.85°C",
+    meltingPointF: "1219.73°F",
+    boilingPointK: "2792 K",
+    boilingPointC: "2518.85°C",
+    boilingPointF: "4565,93°F",
+    info: "Aluminum is a lightweight, silvery-white metal known for its excellent corrosion resistance and high strength-to-weight ratio. It is extensively used in various industries, including aerospace, transportation, construction, and packaging. Aluminum alloys are favored for their durability and flexibility, making them ideal for aircraft structures, automobile bodies, building facades, and beverage cans. Additionally, aluminum compounds are used in diverse applications such as antacids, water purification, and as a catalyst in organic synthesis.",
   },
 
   silicon: {
+    latinName: "Silicium",
     char: "Si",
     number: 14,
     atomicMass: 28.1,
     electronegativity: 1.9,
     nameRus: "Кремний",
     nameEng: "Silicon",
-    group: "metalloid"
+    group: "metalloid",
+    meltingPointK: "1687 K",
+    meltingPointC: (meltingPointK) => `${parseFloat(meltingPointK) - 273.15}°C`,
+    meltingPointF: "1219.73°F",
+    boilingPointK: "3538 K",
+    boilingPointC: "2518.85°C",
+    boilingPointF: "4565,93°F",
+    info: "Silicon is a crystalline, grayish-brown metalloid that is widely abundant in the Earth's crust. It is primarily used in the electronics industry as a semiconductor material, forming the basis of integrated circuits and microchips essential for computers, smartphones, and other electronic devices. Additionally, silicon is crucial in the production of solar cells, where it converts sunlight into electricity, contributing significantly to renewable energy technologies. Silicon also finds applications in construction materials such as silicones and silica-based glasses due to its heat resistance and durability.",
   },
 
   phosphorus: {
@@ -1273,3 +1335,9 @@ export const elements = {
 }
 
 console.log(Object.keys(elements).length);
+
+function returnNumber(str) {
+  return parseFloat(str);
+}
+
+console.log(returnNumber("123K"));
