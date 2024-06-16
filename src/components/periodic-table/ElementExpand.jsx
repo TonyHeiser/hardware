@@ -18,7 +18,9 @@ export default function ElementExpand({element, closeExpand}) {
           <div className="element-expand__parameters">
             <p className="element-expand__latin-name">Latin name:</p>
             <p className="element-expand__atomic-mass">Atomic Mass:</p>
-            <p className="element-expand__electronegativity">Electronegativity:</p>
+            { 
+              element.electronegativity != null && <p className="element-expand__electronegativity">Electronegativity:</p>
+            }
             <p className="element-expand__melting-point">Melting Point (K, °C, °F):</p>
             <p className="element-expand__boiling-point">Boiling Point (K, °C, °F): </p>
             <p className="element-expand__standart-state">Standart State:</p>
@@ -26,9 +28,11 @@ export default function ElementExpand({element, closeExpand}) {
           <div className="element-expand__values">
             <p className="element-expand__latin-name">{element.latinName}</p>
             <p className="element-expand__atomic-mass">{element.atomicMass}</p>
-            <p className="element-expand__electronegativity">{element.electronegativity}</p>
-            <p className="element-expand__melting-point">{element.meltingPointK}, {element.meltingPointC}, {element.meltingPointF}</p>
-            <p className="element-expand__boiling-point">{element.boilingPointK}, {element.boilingPointC}, {element.boilingPointF}</p>
+            { 
+              element.electronegativity != null && <p className="element-expand__electronegativity">{element.electronegativity}</p>
+            }
+            <p className="element-expand__melting-point">{element.meltingPointK} K, {element.meltingPointC}°C, {element.meltingPointF}°F</p>
+            <p className="element-expand__boiling-point">{element.boilingPointK} K, {element.boilingPointC}°C, {element.boilingPointF}°F</p>
             <p className="element-expand__standart-state">{element.standartState}</p>
           </div>
         </div>

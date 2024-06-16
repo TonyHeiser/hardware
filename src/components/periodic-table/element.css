@@ -21,14 +21,14 @@
 }
 
 button.periodic-table-20__btn {
-  border: 1px solid var(--clrblack3);
+  border: 0.1dvw solid var(--clrblack3);
   border-radius: 5px;
   background: none;
   color: var(--clrwhite);
   font-size: 1.1vw;
   font-family: inherit;
   padding: 0.2dvw;
-  width: 4.7dvw;
+  width: 4.9dvw;
   transition: 0.1s;
   height: 5vw;
 
@@ -48,9 +48,6 @@ button.periodic-table-20__btn {
     margin-bottom: 0.5dvw;
     font-size: 0.85dvw;
 
-    span.element__atomic-mass, span.element__electronegativity {
-      
-    }
   }
 
   span.element20__name {
@@ -62,19 +59,25 @@ button.periodic-table-20__btn {
     }
   }
 
-  
 }
 
 button.periodic-table20__btn:hover {
   transform: scale(1.05);
 }
 
-/* button.periodic-table20__btn:active {
-  transform: scale(0.95);
-  background-color: var(--clrwhite);
-  color: var(--clrblack);
-} */
-
 .small {
   font-size: 1.5dvw;
+}
+
+@media screen and (max-width: 1180px) {
+  button.periodic-table-20__btn {
+    width: 4.7dvw;
+    height: 5.1dvw;
+  }
+}
+
+@media screen and (min-width: 1768px) {
+  button.periodic-table-20__btn {
+    width: 5dvw;
+  }
 }
