@@ -143,9 +143,40 @@
       
     }
 
-    
+    .element-expand__next-previous {
+      margin-top: 2dvw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-    
+      button {
+        border: none;
+        background: var(--clrblue);
+        font-size: 1.2rem;
+        padding: 0.5dvw 1dvw;
+        border-radius: 10px;
+        font-family: "Helvetica-Bold";
+        transition: 0.1s;
+      }
+      
+      button:hover {
+        transform: scale(1.05);
+      }
+
+      button:active {
+        background-color: var(--clrwhite);
+        transform: scale(0.95);
+      }
+
+      .element-expand__previous {
+        margin-right: 1dvw;
+      }
+
+      .element-expand__next {
+
+      }
+    }
+
   }
 }
 

@@ -37,6 +37,10 @@ export default function ElementExpand({element, closeExpand}) {
           </div>
         </div>
         <p className="element-expand__info-text">{element.info}</p>
+        <div className="element-expand__next-previous">
+          <button className="element-expand__previous">Previous</button>
+          <button className="element-expand__next">Next</button>
+        </div>
       </div>
     </div>
   )
