@@ -892,6 +892,14 @@ export const elements = {
     nameRus: "Серебро",
     nameEng: "Silver",
     group: "transitionMetal",
+    standartState: "Solid",
+    meltingPointK: 1234.93,
+    meltingPointC: 0,
+    meltingPointF: 0,
+    boilingPointK: 2435,
+    boilingPointC: 0,
+    boilingPointF: 0,
+    info: "Silver is a lustrous, precious metal known for its brilliant white metallic luster. It is often used in jewelry, tableware, and decorative items due to its beauty and resistance to corrosion. Silver is also employed in various industrial applications, including electronics and photography, thanks to its excellent conductivity and sensitivity to light. Its versatility and aesthetic appeal make it a sought-after material in both traditional and modern industries worldwide.",
   },
 
   cadmium: {
