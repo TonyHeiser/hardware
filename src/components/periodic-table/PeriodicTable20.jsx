@@ -156,7 +156,7 @@ export default function PeriodicTable20() {
           </tr>
           <tr className="periodic-table-20__lanthanide">
             <th colSpan={4}>Lanthanide</th>
-            <ChemicalElement element={elements.lantanium}/>
+            <ChemicalElement element={elements.lanthanum}/>
             <ChemicalElement element={elements.cerium}/>
             <ChemicalElement element={elements.praseodymium}/>
             <ChemicalElement element={elements.neodymium}/>
