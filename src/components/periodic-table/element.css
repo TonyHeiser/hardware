@@ -69,6 +69,14 @@ button.periodic-table20__btn:hover {
   font-size: 1.5dvw;
 }
 
+.element20__error-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4dvw;
+  height: 4dvw;
+}
+
 @media screen and (max-width: 1180px) {
   button.periodic-table-20__btn {
     width: 4.7dvw;
