@@ -26,6 +26,61 @@
   padding: 0px;
   border-radius: 10px;
   padding: 5px;
+
+  .periodic-table-20__explanation {
+    position: relative;
+
+    .periodic-table-20__explanation-container {
+      background-color: var(--clrblack2);
+      width: 9dvw;
+      height: 9dvw;
+      border-radius: 0.7dvw;
+      border: 0.3dvw solid var(--clrblack3);
+      padding: 0.3dvw;
+      font-size: 1.9dvw;
+      position: absolute;
+      top: 5dvw;
+      left: 30dvw;
+
+      .explanation-info__up {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.8dvw;
+
+        span.explanation-info__char {
+          font-family: "Helvetica-Bold";
+        }
+
+        span.explanation-info__number {
+
+        }
+      }
+
+      .explanation-info__center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.7dvw;
+        margin-bottom: 0.6dvw;
+
+        span.explanation-info__atomic-mass {
+
+        }
+
+        span.explanation-info__electronegativity {
+
+        }
+      }
+
+      span.explanation-info__name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8dvw;
+      }
+    }
+  }
   
   table.periodic-table-20__table {
 

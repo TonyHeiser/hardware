@@ -8,7 +8,19 @@ export default function PeriodicTable20() {
   return (
     <>
       <div className="periodic-table-20">
-        {/* <ElementExpand element={elements.hydrogen}/> */}
+        <div className="periodic-table-20__explanation">
+          <div className="periodic-table-20__explanation-container">
+            <div className="explanation-info__up">
+              <span className="explanation-info__char">Au</span>
+              <span className="explanation-info__number">79</span>
+            </div>
+            <div className="explanation-info__center">
+              <span className="explanation-info__atomic-mass">197</span>
+              <span className="explanation-info__electronegativity">2.54</span>
+            </div>
+            <span className="explanation-info__name">Gold</span>
+          </div>
+        </div>
         <table className="periodic-table-20__table">
           <tr className="periodic-table-20__groups">
             <th className="periodic-table-20__group-title">
